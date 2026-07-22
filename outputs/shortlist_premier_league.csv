@@ -1,0 +1,99 @@
+player,team,primary_position,total_minutes,probability,decision,npga_p90,shots_p90,npxg_p90,touches_in_box_p90,key_passes_p90,pressures_p90
+Sergio Leonel Agüero del Castillo,Manchester City,Center Forward,2412,0.9693,recommend,0.8209,4.403,0.5133,26.903,0.8955,10.3731
+Alexis Alejandro Sánchez Sánchez,Arsenal,Left Wing,2510,0.9502,recommend,0.6096,3.9801,0.4039,20.1155,1.9004,14.3426
+Christian Benteke Liolo,Liverpool,Center Forward,1634,0.9254,recommend,0.6059,3.5251,0.5629,25.9425,1.2668,8.9229
+Philippe Coutinho Correia,Liverpool,Left Wing,2097,0.8895,recommend,0.5579,4.7639,0.3059,10.6867,1.8455,16.4378
+Dimitri Payet,West Ham United,Left Wing,2677,0.8698,recommend,0.706,2.3198,0.1704,6.0516,3.362,10.1868
+Wilfried Guemiand Bony,Manchester City,Center Forward,1291,0.8624,recommend,0.488,4.2525,0.4529,19.0318,0.5577,6.8319
+Romelu Lukaku Menama,Everton,Center Forward,3290,0.7827,recommend,0.6292,3.1733,0.4538,22.4863,1.1763,8.3435
+Harry Kane,Tottenham Hotspur,Center Forward,3473,0.7683,recommend,0.5442,4.0944,0.4591,18.5546,1.0107,12.7239
+Olivier Giroud,Arsenal,Center Forward,2541,0.7302,recommend,0.7438,3.6482,0.4333,26.0331,0.9209,15.0885
+Kelechi Promise Iheanacho,Manchester City,Right Center Forward,842,0.7015,recommend,0.962,3.0998,0.54,18.0641,1.2827,17.3159
+Odion Jude Ighalo,Watford,Left Center Forward,3271,0.6588,recommend,0.4677,3.0541,0.4655,21.8465,0.853,13.7022
+Daniel Andre Sturridge,Liverpool,Center Forward,1020,0.6342,recommend,0.7941,4.2353,0.4522,19.8529,0.4412,8.7353
+Jamie Vardy,Leicester City,Left Center Forward,3293,0.6043,recommend,0.6559,3.225,0.481,18.6395,0.9839,13.474
+Graziano Pellè,Southampton,Center Forward,2286,0.5944,review,0.6693,3.2283,0.3039,23.1102,1.0236,10.1969
+Dušan Tadić,Southampton,Left Wing,2339,0.5556,review,0.6541,2.1548,0.2308,12.1975,2.5395,14.7755
+Daniel Nii Tackie Mensah Welbeck,Arsenal,Center Forward,594,0.5384,review,0.9091,3.0303,0.4581,25.303,0.7576,16.8182
+Christian Dannemann Eriksen,Tottenham Hotspur,Left Wing,3032,0.4716,review,0.5343,2.9387,0.1517,6.9756,2.8199,16.7414
+Diego da Silva Costa,Chelsea,Center Forward,2468,0.4633,review,0.6199,2.5527,0.4306,25.5632,0.7293,12.1799
+Theo Walcott,Arsenal,Left Wing,1430,0.4305,review,0.4406,2.8951,0.4217,16.7413,0.8182,9.5664
+Andy Carroll,West Ham United,Center Forward,1531,0.4253,review,0.5291,3.2332,0.3234,20.4572,0.823,9.6408
+Mauro Matías Zárate,West Ham United,Right Wing,817,0.4244,review,0.4406,3.3048,0.2132,7.0502,1.8727,15.4223
+José Leonardo Ulloa,Leicester City,Right Center Forward,1078,0.42,review,0.5009,2.7551,0.4709,20.1206,0.7514,21.2059
+Aleksandar Mitrović,Newcastle United,Center Forward,2323,0.4125,review,0.4262,3.0994,0.3988,19.2165,0.8523,15.1485
+Raheem Sterling,Manchester City,Left Wing,1981,0.3932,review,0.3635,2.317,0.2913,18.6724,1.4992,14.1292
+Shane Long,Southampton,Center Forward,2210,0.3835,review,0.5701,2.5656,0.3252,18.0,1.2217,14.6199
+Bafétimbi Gomis,Swansea City,Center Forward,1806,0.3761,review,0.2492,2.9402,0.3411,18.6379,0.6977,10.3156
+Dieumerci Mbokani Bezua,Norwich City,Center Forward,1697,0.3731,review,0.4243,1.9623,0.3195,18.4561,1.1137,8.3795
+Eden Hazard,Chelsea,Left Wing,2302,0.3724,review,0.2737,1.4075,0.0936,12.1199,2.424,9.0313
+Erik Lamela,Tottenham Hotspur,Right Wing,2430,0.3477,review,0.4815,2.1852,0.2175,11.5185,2.3704,23.963
+Pedro Eliezer Rodríguez Ledesma,Chelsea,Left Wing,2105,0.3435,review,0.3848,2.5226,0.2556,13.8527,1.6675,16.3325
+Emmanuel Emenike,West Ham United,Center Forward,554,0.3421,review,0.0,1.9495,0.294,19.4946,1.4621,13.4838
+Diafra Sakho,West Ham United,Center Forward,1567,0.329,review,0.3446,2.642,0.4223,19.4703,0.6892,14.6458
+Divock Okoth Origi,Liverpool,Center Forward,715,0.3075,review,0.7552,3.021,0.2904,20.8951,1.1329,18.0
+Jermain Defoe,Sunderland,Center Forward,2667,0.3072,review,0.5062,2.9696,0.4193,15.658,0.6074,11.7435
+Wayne Mark Rooney,Manchester United,Center Forward,2496,0.2965,review,0.4327,2.5601,0.2204,14.5673,1.262,10.3486
+Rudy Gestede,Aston Villa,Center Forward,1799,0.2828,review,0.3002,3.1518,0.2621,19.3107,0.5503,9.5053
+Nacer Chadli,Tottenham Hotspur,Left Wing,1035,0.2805,review,0.4348,2.2609,0.226,14.0,1.6522,14.9565
+Kevin Mirallas,Everton,Left Wing,1147,0.2725,review,0.4708,3.2171,0.2523,10.9067,1.0985,11.8483
+Heung-Min Son,Tottenham Hotspur,Right Wing,1166,0.2636,review,0.3859,2.9331,0.2973,14.2024,1.3122,23.0017
+Alberto Paloschi,Swansea City,Center Forward,682,0.2479,not recommended,0.2639,1.9795,0.3752,19.1349,0.6598,16.3636
+Willian Borges da Silva,Chelsea,Right Wing,2840,0.2197,not recommended,0.3803,1.8697,0.1181,8.3345,2.4085,15.338
+Glenn Murray,AFC Bournemouth,Center Forward,862,0.2043,not recommended,0.3132,2.819,0.402,16.8097,0.6265,18.8979
+Alex Iwobi,Arsenal,Left Wing,642,0.19,not recommended,0.5607,2.1028,0.2416,13.0374,1.4019,14.1589
+José Salomón Rondón Giménez,West Bromwich Albion,Center Forward,2636,0.1837,not recommended,0.3756,2.4583,0.2847,18.3005,0.8194,17.6517
+Cameron Jerome,Norwich City,Center Forward,1859,0.1823,not recommended,0.2421,2.3722,0.3534,17.5256,0.2905,10.893
+Marko Arnautović,Stoke City,Left Wing,2888,0.1773,not recommended,0.4363,2.2438,0.272,12.2472,1.3712,15.2701
+Memphis Depay,Manchester United,Left Wing,1576,0.176,not recommended,0.1142,3.198,0.2502,13.7056,0.6853,10.6789
+Jonathan Walters,Stoke City,Center Forward,1821,0.1716,not recommended,0.346,1.631,0.2733,16.112,0.939,10.972
+Troy Deeney,Watford,Right Center Forward,3439,0.1611,not recommended,0.3664,2.46,0.1728,15.5976,1.2823,15.9378
+Emmanuel Adebayor,Crystal Palace,Center Forward,649,0.1467,not recommended,0.2773,1.6641,0.2967,22.8814,0.9707,16.7797
+Callum Wilson,AFC Bournemouth,Center Forward,808,0.1451,not recommended,0.4455,2.005,0.2786,20.1609,0.8911,16.2624
+Mame Biram Diouf,Stoke City,Center Forward,1360,0.1335,not recommended,0.3971,2.1176,0.3214,15.9485,0.4632,14.0294
+Andros Townsend,Newcastle United,Right Wing,1205,0.1323,not recommended,0.4481,2.166,0.1076,5.8257,2.0913,20.6888
+Joshua King,AFC Bournemouth,Center Forward,1965,0.1314,not recommended,0.3664,2.5649,0.2673,20.1985,0.9618,27.1603
+Dwight Gayle,Crystal Palace,Center Forward,863,0.1278,not recommended,0.3129,2.2943,0.3238,16.686,0.73,16.4774
+Anthony Martial,Manchester United,Left Wing,2741,0.1227,not recommended,0.4597,1.8716,0.2266,17.3367,1.0507,12.2145
+Connor Wickham,Crystal Palace,Center Forward,1366,0.1107,not recommended,0.4612,2.306,0.2614,16.3397,0.6589,16.9985
+Alex Oxlade-Chamberlain,Arsenal,Right Wing,982,0.1074,not recommended,0.0916,2.1079,0.1353,10.2648,1.558,17.2301
+Victor Moses,West Ham United,Right Wing,1020,0.096,not recommended,0.2647,1.8529,0.1621,10.5,1.2353,11.8235
+Enner Remberto Valencia Lastra,West Ham United,Center Forward,1070,0.0841,not recommended,0.5047,2.7757,0.3061,12.3645,0.5888,17.3271
+Yannick Bolasie Yala,Crystal Palace,Left Wing,2166,0.0828,not recommended,0.3324,2.41,0.18,10.1385,0.9557,11.6759
+Lewis Grabban,AFC Bournemouth,Center Forward,886,0.0789,not recommended,0.1016,1.93,0.2737,14.6275,0.7111,22.246
+Samir Nasri,Manchester City,Left Wing,576,0.0788,not recommended,0.625,2.1875,0.3,8.5938,1.0938,15.7812
+Papiss Demba Cissé,Newcastle United,Center Forward,1104,0.0779,not recommended,0.2446,1.9565,0.2941,16.1413,0.8152,15.6522
+Juan Manuel Mata García,Manchester United,Right Wing,3051,0.0723,not recommended,0.295,1.7109,0.1499,10.295,1.3569,11.6814
+Saido Berahino,West Bromwich Albion,Left Center Forward,1834,0.071,not recommended,0.1963,1.7666,0.2284,13.5932,0.8833,13.0044
+Adam Johnson,Sunderland,Right Wing,1209,0.0704,not recommended,0.4467,1.1911,0.0728,2.7543,1.861,10.1985
+Jesús Navas González,Manchester City,Right Wing,2377,0.0654,not recommended,0.265,1.1737,0.1088,9.655,1.8174,14.7665
+Steven Fletcher,Sunderland,Center Forward,1038,0.0648,not recommended,0.3468,1.9942,0.1961,14.8266,0.8671,12.3988
+Shinji Okazaki,Leicester City,Right Center Forward,2104,0.0626,not recommended,0.2139,1.8821,0.3047,16.5114,0.7272,22.0295
+Jordon Ibe,Liverpool,Right Wing,1251,0.0577,not recommended,0.1439,2.1583,0.0913,7.482,1.295,14.6043
+Xherdan Shaqiri,Stoke City,Right Wing,2049,0.0577,not recommended,0.3514,1.713,0.1082,4.9195,1.8887,11.1127
+José Luis Sanmartín Mato,Stoke City,Center Forward,1164,0.0531,not recommended,0.3866,2.2423,0.1993,15.5412,0.6186,20.4897
+Arouna Koné,Everton,Left Wing,1515,0.0517,not recommended,0.4752,2.198,0.2729,12.1188,0.5347,10.6931
+Bakary Sako,Crystal Palace,Right Wing,1115,0.0474,not recommended,0.2422,2.8251,0.1712,8.3139,0.6457,14.5291
+Benik Afobe,AFC Bournemouth,Center Forward,953,0.0452,not recommended,0.3778,1.3221,0.1841,16.2434,1.0388,18.6044
+Rickie Lambert,West Bromwich Albion,Right Center Forward,699,0.0419,not recommended,0.1288,1.8026,0.1152,14.2918,1.03,11.4592
+Peter Crouch,Stoke City,Center Forward,503,0.0373,not recommended,0.1789,1.6103,0.1041,20.7555,0.5368,12.167
+Marcus Rashford,Manchester United,Center Forward,872,0.036,not recommended,0.8257,1.6514,0.1862,19.7133,0.5161,13.211
+Jefferson Antonio Montero Vite,Swansea City,Left Wing,1409,0.0344,not recommended,0.1278,1.3414,0.1164,9.9006,1.533,12.3279
+Duncan Watmore,Sunderland,Right Wing,1000,0.0339,not recommended,0.36,1.53,0.1795,15.57,0.81,14.04
+Joel Nathaniel Campbell Samuels,Arsenal,Right Wing,910,0.0327,not recommended,0.4945,1.978,0.1737,13.9451,1.0879,22.3516
+Ayoze Pérez Gutiérrez,Newcastle United,Left Wing,2147,0.0286,not recommended,0.3354,2.1379,0.1545,11.6535,1.0899,24.313
+André Ayew Pelé,Swansea City,Right Wing,3005,0.0285,not recommended,0.4193,2.0666,0.2274,12.7887,0.5092,17.9401
+Gerard Deulofeu Lázaro,Everton,Right Wing,1445,0.0191,not recommended,0.6851,0.7474,0.0967,8.782,1.7439,12.7059
+Carles Gil de Pareja Vicent,Aston Villa,Right Wing,1479,0.0181,not recommended,0.1826,1.0953,0.0619,4.7465,1.3387,17.6471
+Jordan Ayew,Aston Villa,Left Wing,2527,0.0164,not recommended,0.2137,2.1725,0.1589,12.038,0.4986,24.8951
+Aaron Lennon,Everton,Right Wing,1614,0.0148,not recommended,0.2788,1.0037,0.1089,8.6431,1.171,18.2342
+Florian Thauvin,Newcastle United,Left Wing,468,0.0144,not recommended,0.0,1.5385,0.0785,6.9231,0.7692,13.4615
+Moussa Sissoko,Newcastle United,Right Wing,3347,0.0136,not recommended,0.2151,1.0487,0.0993,6.1309,1.3445,16.2145
+Wayne Routledge,Swansea City,Right Wing,1718,0.0129,not recommended,0.1572,0.943,0.1433,7.9104,1.4144,17.3399
+Jeremain Lens,Sunderland,Right Wing,1388,0.0123,not recommended,0.389,1.8156,0.1363,6.8084,0.9078,20.7493
+Jesse Lingard,Manchester United,Right Wing,1695,0.0121,not recommended,0.2655,1.646,0.1696,9.4513,0.7434,20.9735
+Gabriel Imuetinyan Agbonlahor,Aston Villa,Center Forward,1062,0.0116,not recommended,0.2542,0.9322,0.1216,12.0339,0.9322,15.4237
+Modou Barrow,Swansea City,Right Wing,861,0.0114,not recommended,0.4181,1.2544,0.0669,8.676,1.2544,20.8014
+Wilfried Zaha,Crystal Palace,Right Wing,2581,0.0109,not recommended,0.1046,1.1507,0.084,11.2979,1.2205,18.0628
+Scott Sinclair,Aston Villa,Left Wing,1667,0.0061,not recommended,0.054,0.9178,0.1259,10.2579,0.216,11.0678
+Tom Cleverley,Everton,Left Wing,1681,0.0037,not recommended,0.3212,1.2849,0.0771,5.354,0.9637,23.3432

@@ -1,0 +1,176 @@
+match_id,player_id,minutes,shots,xg,goals,np_goals,npxg,touches_in_box,key_passes,assists,pressures,player,team,primary_position,np_goals_assists
+3895052,5536,34,2,0.314083646,0,0,0.314083646,6,0,0,5,Yussuf Yurary Poulsen,RB Leipzig,Center Forward,0
+3895052,16275,74,4,1.0845185860000002,1,1,1.0845185860000002,9,0,0,19,Ikoma Loïs Openda,RB Leipzig,Left Center Forward,1
+3895052,32289,88,3,0.213703868,0,0,0.213703868,18,0,1,5,Victor Okoh Boniface,Bayer Leverkusen,Center Forward,1
+3895060,11399,27,0,0.0,0,0,0.0,3,0,0,12,Robin Hack,Borussia Mönchengladbach,Left Center Forward,0
+3895060,25039,66,0,0.0,0,0,0.0,6,2,0,24,Nathan Ngoumou Minpole,Borussia Mönchengladbach,Left Wing,0
+3895060,32289,88,11,1.403437664,2,2,1.403437664,36,0,0,3,Victor Okoh Boniface,Bayer Leverkusen,Center Forward,2
+3895060,45567,78,3,0.3719524,0,0,0.3719524,15,1,0,18,Tomáš Čvančara,Borussia Mönchengladbach,Center Forward,0
+3895060,135777,15,0,0.0,0,0,0.0,0,0,0,3,Yvandro Borges Sanches,Borussia Mönchengladbach,Left Wing,0
+3895067,32289,94,7,1.090115837,2,2,1.090115837,39,1,1,7,Victor Okoh Boniface,Bayer Leverkusen,Center Forward,3
+3895067,34612,36,0,0.0,0,0,0.0,3,0,0,3,Filip Stojilković,Darmstadt 98,Right Center Forward,0
+3895067,42543,58,3,0.5429408849999999,1,1,0.5429408849999999,6,0,0,13,Oscar Vilhelmsson,Darmstadt 98,Left Center Forward,1
+3895067,48655,94,0,0.0,0,0,0.0,4,0,0,18,Luca Pfeiffer,Darmstadt 98,Right Center Forward,0
+3895074,3053,98,2,0.11870924599999999,0,0,0.11870924599999999,17,2,0,12,Leroy Sané,Bayern Munich,Right Wing,0
+3895074,3499,14,0,0.0,0,0,0.0,2,0,0,4,Jean-Eric Maxim Choupo-Moting,Bayern Munich,Center Forward,0
+3895074,8400,69,4,0.496187265,0,0,0.496187265,22,0,0,24,Serge Gnabry,Bayern Munich,Left Wing,0
+3895074,10955,84,2,0.85733924,1,1,0.85733924,11,1,0,13,Harry Kane,Bayern Munich,Center Forward,1
+3895074,32289,98,8,0.969415028,0,0,0.969415028,42,1,0,11,Victor Okoh Boniface,Bayer Leverkusen,Center Forward,0
+3895074,44737,29,0,0.0,0,0,0.0,11,0,1,6,Mathys Tel,Bayern Munich,Left Wing,1
+3895086,11382,80,1,0.24645855,0,0,0.24645855,8,0,0,21,Tim Kleindienst,FC Heidenheim,Center Forward,0
+3895086,15693,15,0,0.0,0,0,0.0,0,0,0,2,Denis Thomalla,FC Heidenheim,Left Wing,0
+3895086,31310,81,0,0.0,0,0,0.0,4,0,1,28,Jan-Niklas Beste,FC Heidenheim,Left Wing,1
+3895086,32289,84,9,2.4532735850000003,2,1,1.669773585,35,0,0,3,Victor Okoh Boniface,Bayer Leverkusen,Center Forward,1
+3895086,74089,16,0,0.0,0,0,0.0,4,0,0,6,Marvin Pieringer,FC Heidenheim,Center Forward,0
+3895095,7208,20,0,0.0,0,0,0.0,16,1,0,2,Ludovic Ajorque,FSV Mainz 05,Right Center Forward,0
+3895095,11278,83,3,0.16382985500000002,0,0,0.16382985500000002,22,0,0,19,Karim Onisiwo,FSV Mainz 05,Center Forward,0
+3895095,32289,78,1,0.48862752,0,0,0.48862752,12,0,0,13,Victor Okoh Boniface,Bayer Leverkusen,Center Forward,0
+3895095,363583,74,1,0.02572198,0,0,0.02572198,1,1,0,18,Brajan Gruda,FSV Mainz 05,Right Wing,0
+3895107,11279,90,1,0.09981244,0,0,0.09981244,9,0,0,22,Davie Selke,FC Köln,Right Center Forward,0
+3895107,32289,79,6,1.352037038,1,1,1.352037038,44,2,0,8,Victor Okoh Boniface,Bayer Leverkusen,Center Forward,1
+3895107,72768,19,0,0.0,0,0,0.0,1,0,0,3,Steffen Tigges,FC Köln,Center Forward,0
+3895107,134880,61,0,0.0,0,0,0.0,1,0,0,33,Faride Alidou,FC Köln,Left Center Forward,0
+3895113,21261,94,5,0.399083601,0,0,0.399083601,21,4,0,20,Jonas Older Wind,Wolfsburg,Right Center Forward,0
+3895113,28914,24,1,0.028854862,0,0,0.028854862,0,1,0,12,Lovro Majer,Wolfsburg,Right Wing,0
+3895113,31955,17,0,0.0,0,0,0.0,1,0,0,3,Jakub Kamiński,Wolfsburg,Right Wing,0
+3895113,32289,94,4,0.69930936,0,0,0.69930936,22,0,1,4,Victor Okoh Boniface,Bayer Leverkusen,Center Forward,1
+3895113,41783,45,2,0.213200445,0,0,0.213200445,7,1,0,17,Tiago Barreiros de Melo Tomás,Wolfsburg,Left Center Forward,0
+3895113,42754,49,0,0.0,0,0,0.0,6,0,0,9,Amin Sarr,Wolfsburg,Center Forward,0
+3895121,7044,5,0,0.0,0,0,0.0,3,0,0,1,Patrik Schick,Bayer Leverkusen,Center Forward,0
+3895121,8309,29,3,0.200481045,0,0,0.200481045,10,0,0,4,Michael Gregoritsch,Freiburg,Center Forward,0
+3895121,11282,80,0,0.0,0,0,0.0,3,0,1,7,Vincenzo Grifo,Freiburg,Left Wing,1
+3895121,12418,95,2,0.135623514,0,0,0.135623514,22,1,0,14,Lucas Höler,Freiburg,Right Wing,0
+3895121,32289,90,4,0.3250564376,0,0,0.3250564376,34,3,0,10,Victor Okoh Boniface,Bayer Leverkusen,Center Forward,0
+3895134,7829,95,2,1.04062588,1,1,1.04062588,25,1,0,43,Wout Weghorst,Hoffenheim,Right Center Forward,1
+3895134,8962,18,0,0.0,0,0,0.0,1,0,0,1,Ihlas Bebou,Hoffenheim,Left Center Forward,0
+3895134,12088,8,0,0.0,0,0,0.0,0,0,0,1,Mërgim Berisha,Hoffenheim,Left Center Forward,0
+3895134,32289,87,2,0.3753238,0,0,0.3753238,19,0,2,10,Victor Okoh Boniface,Bayer Leverkusen,Center Forward,2
+3895134,35242,87,4,0.21832838599999999,0,0,0.21832838599999999,17,0,0,26,Maximilian Beier,Hoffenheim,Left Center Forward,0
+3895139,8375,63,0,0.0,0,0,0.0,0,1,0,11,Sheraldo Becker,Union Berlin,Left Wing,0
+3895139,8938,91,1,0.02171633,0,0,0.02171633,2,0,0,35,Janik Haberer,Union Berlin,Right Wing,0
+3895139,10014,14,0,0.0,0,0,0.0,4,0,0,12,Kevin Behrens,Union Berlin,Center Forward,0
+3895139,32289,85,4,0.399048181,0,0,0.399048181,21,1,0,12,Victor Okoh Boniface,Bayer Leverkusen,Center Forward,0
+3895139,89326,77,0,0.0,0,0,0.0,14,0,0,23,David Datro Fofana,Union Berlin,Center Forward,0
+3895153,12299,93,0,0.0,0,0,0.0,10,1,0,10,Marvin Ducksch,Werder Bremen,Left Center Forward,0
+3895153,28266,71,1,0.057764426,0,0,0.057764426,21,0,0,26,Rafael Santos Borré Amaury,Werder Bremen,Right Center Forward,0
+3895153,32289,70,3,0.44049380400000004,0,0,0.44049380400000004,23,0,0,14,Victor Okoh Boniface,Bayer Leverkusen,Center Forward,0
+3895153,34870,22,0,0.0,0,0,0.0,7,0,0,8,Nick Woltemade,Werder Bremen,Right Center Forward,0
+3895158,5559,83,0,0.0,0,0,0.0,2,0,0,26,Marco Reus,Borussia Dortmund,Right Wing,0
+3895158,7044,16,1,0.06840045,0,0,0.06840045,12,0,0,1,Patrik Schick,Bayer Leverkusen,Center Forward,0
+3895158,8546,94,2,0.29512831,0,0,0.29512831,13,0,1,7,Niclas Füllkrug,Borussia Dortmund,Center Forward,1
+3895158,32289,94,3,1.084955364,1,1,1.084955364,43,1,0,16,Victor Okoh Boniface,Bayer Leverkusen,Center Forward,1
+3895158,35609,30,0,0.0,0,0,0.0,4,0,0,8,Karim-David Adeyemi,Borussia Dortmund,Left Wing,0
+3895158,161995,64,1,0.068964936,0,0,0.068964936,3,0,0,15,Jamie Jermaine Bynoe-Gittens,Borussia Dortmund,Left Wing,0
+3895167,7044,23,1,0.043944217,0,0,0.043944217,6,0,0,1,Patrik Schick,Bayer Leverkusen,Center Forward,0
+3895167,9102,95,3,0.436844954,0,0,0.436844954,15,3,0,10,Serhou Guirassy,VfB Stuttgart,Left Center Forward,0
+3895167,22067,11,0,0.0,0,0,0.0,4,0,0,2,Woo-Yeong Jeong,VfB Stuttgart,Right Center Forward,0
+3895167,32289,72,4,0.363109362,0,0,0.363109362,18,1,1,4,Victor Okoh Boniface,Bayer Leverkusen,Center Forward,1
+3895167,131243,84,8,0.5501907036,0,0,0.5501907036,27,0,0,21,Deniz Undav,VfB Stuttgart,Right Center Forward,0
+3895180,7044,24,1,0.08704005,0,0,0.08704005,12,0,0,8,Patrik Schick,Bayer Leverkusen,Center Forward,0
+3895180,28346,71,0,0.0,0,0,0.0,0,0,0,30,Eric Junior Dina Ebimbe,Eintracht Frankfurt,Right Wing,0
+3895180,29925,24,0,0.0,0,0,0.0,3,0,0,7,Jens Petter Hauge,Eintracht Frankfurt,Right Wing,0
+3895180,32289,71,2,0.19424087299999998,1,1,0.19424087299999998,14,0,1,19,Victor Okoh Boniface,Bayer Leverkusen,Center Forward,2
+3895180,39070,95,0,0.0,0,0,0.0,7,0,0,24,Ansgar Knauff,Eintracht Frankfurt,Left Wing,0
+3895180,217047,82,1,0.052682277,0,0,0.052682277,7,0,0,16,Fares Chaïbi,Eintracht Frankfurt,Center Forward,0
+3895182,7044,66,4,1.36863058,3,2,0.58513058,19,1,0,8,Patrik Schick,Bayer Leverkusen,Center Forward,2
+3895182,8949,45,0,0.0,0,0,0.0,7,0,0,18,Takuma Asano,Bochum,Right Wing,0
+3895182,9230,62,1,0.06309424,0,0,0.06309424,3,2,0,12,Christopher Antwi-Adjej,Bochum,Left Wing,0
+3895182,23498,62,1,0.05048838,0,0,0.05048838,16,0,0,39,Gonçalo Mendes Paciencia,Bochum,Center Forward,0
+3895182,32289,28,1,0.34414628,1,1,0.34414628,8,2,0,8,Victor Okoh Boniface,Bayer Leverkusen,Center Forward,1
+3895182,151463,32,0,0.0,0,0,0.0,4,0,0,18,Moritz Broschinski,Bochum,Center Forward,0
+3895194,6874,79,2,0.161729462,0,0,0.161729462,17,1,0,27,Ermedin Demirović,Augsburg,Right Center Forward,0
+3895194,7044,95,4,0.44817375000000004,0,0,0.44817375000000004,32,0,0,16,Patrik Schick,Bayer Leverkusen,Center Forward,0
+3895194,9221,79,1,0.12377237,0,0,0.12377237,7,0,0,35,Phillip Tietz,Augsburg,Right Center Forward,0
+3895194,9227,16,0,0.0,0,0,0.0,2,0,0,5,Sven Michel,Augsburg,Left Center Forward,0
+3895194,40995,16,0,0.0,0,0,0.0,2,0,0,3,Dion Drena Beljo,Augsburg,Left Center Forward,0
+3895202,5536,21,0,0.0,0,0,0.0,3,0,0,4,Yussuf Yurary Poulsen,RB Leipzig,Center Forward,0
+3895202,7044,91,3,0.177001883,0,0,0.177001883,24,1,0,14,Patrik Schick,Bayer Leverkusen,Center Forward,0
+3895202,16275,94,2,0.27376011899999997,1,1,0.27376011899999997,11,1,0,8,Ikoma Loïs Openda,RB Leipzig,Left Center Forward,1
+3895202,38759,73,3,0.42175001300000003,0,0,0.42175001300000003,21,0,0,25,Benjamin Šeško,RB Leipzig,Right Center Forward,0
+3895210,7044,94,3,0.33334601399999997,0,0,0.33334601399999997,41,3,0,15,Patrik Schick,Bayer Leverkusen,Center Forward,0
+3895210,7375,78,0,0.0,0,0,0.0,6,1,0,40,Theoson Jordan Siebatcheu,Borussia Mönchengladbach,Right Center Forward,0
+3895210,11399,61,1,0.062127307,0,0,0.062127307,8,0,0,37,Robin Hack,Borussia Mönchengladbach,Left Center Forward,0
+3895210,25039,16,0,0.0,0,0,0.0,1,0,0,7,Nathan Ngoumou Minpole,Borussia Mönchengladbach,Left Wing,0
+3895210,394487,16,0,0.0,0,0,0.0,1,0,0,10,Shio Fukuda,Borussia Mönchengladbach,Left Center Forward,0
+3895220,11391,94,3,0.7344288999999999,0,0,0.7344288999999999,13,2,0,11,Borja Iglesias Quintas,Bayer Leverkusen,Center Forward,0
+3895220,17925,30,0,0.0,0,0,0.0,2,0,0,9,Sebastian Polter,Darmstadt 98,Left Center Forward,0
+3895220,42543,66,1,0.36120272,0,0,0.36120272,5,1,0,32,Oscar Vilhelmsson,Darmstadt 98,Left Center Forward,0
+3895220,48655,94,3,0.227601956,0,0,0.227601956,9,0,0,41,Luca Pfeiffer,Darmstadt 98,Right Center Forward,0
+3895232,3053,95,1,0.08916859,0,0,0.08916859,13,2,0,20,Leroy Sané,Bayern Munich,Right Wing,0
+3895232,3499,15,0,0.0,0,0,0.0,0,0,0,0,Jean-Eric Maxim Choupo-Moting,Bayern Munich,Center Forward,0
+3895232,10955,95,1,0.03253544,0,0,0.03253544,10,0,0,12,Harry Kane,Bayern Munich,Center Forward,0
+3895232,44737,25,2,0.07725974599999999,0,0,0.07725974599999999,5,0,0,0,Mathys Tel,Bayern Munich,Left Wing,0
+3895244,7044,72,2,0.12789864,0,0,0.12789864,13,1,0,15,Patrik Schick,Bayer Leverkusen,Center Forward,0
+3895244,11382,95,2,0.29882722500000003,1,1,0.29882722500000003,12,0,0,24,Tim Kleindienst,FC Heidenheim,Center Forward,1
+3895244,11391,23,1,0.024886785,0,0,0.024886785,7,1,0,6,Borja Iglesias Quintas,Bayer Leverkusen,Center Forward,0
+3895244,31310,75,0,0.0,0,0,0.0,8,1,0,21,Jan-Niklas Beste,FC Heidenheim,Left Wing,0
+3895244,74089,14,0,0.0,0,0,0.0,0,0,0,1,Marvin Pieringer,FC Heidenheim,Center Forward,0
+3895250,7044,39,0,0.0,0,0,0.0,1,0,0,7,Patrik Schick,Bayer Leverkusen,Center Forward,0
+3895250,11278,82,1,0.028864658,0,0,0.028864658,10,1,0,32,Karim Onisiwo,FSV Mainz 05,Center Forward,0
+3895250,363583,63,0,0.0,0,0,0.0,4,1,0,7,Brajan Gruda,FSV Mainz 05,Right Wing,0
+3895258,7044,64,2,0.1206514,0,0,0.1206514,23,1,0,13,Patrik Schick,Bayer Leverkusen,Center Forward,0
+3895258,9125,64,3,0.38559688999999997,0,0,0.38559688999999997,6,0,0,15,Sargis Adamyan,FC Köln,Center Forward,0
+3895258,11391,28,0,0.0,0,0,0.0,13,0,0,10,Borja Iglesias Quintas,Bayer Leverkusen,Center Forward,0
+3895258,33335,92,0,0.0,0,0,0.0,0,0,0,10,Jan Thielmann,FC Köln,Left Center Forward,0
+3895258,72768,11,0,0.0,0,0,0.0,0,0,0,3,Steffen Tigges,FC Köln,Center Forward,0
+3895258,134880,81,1,0.06454638,0,0,0.06454638,5,2,0,17,Faride Alidou,FC Köln,Left Center Forward,0
+3895266,7044,75,0,0.0,0,0,0.0,22,0,0,16,Patrik Schick,Bayer Leverkusen,Center Forward,0
+3895266,10014,4,0,0.0,0,0,0.0,0,0,0,0,Kevin Behrens,Wolfsburg,Center Forward,0
+3895266,11391,15,1,0.09381463,0,0,0.09381463,7,0,0,3,Borja Iglesias Quintas,Bayer Leverkusen,Center Forward,0
+3895266,21261,31,1,0.089785635,0,0,0.089785635,9,0,0,0,Jonas Older Wind,Wolfsburg,Right Center Forward,0
+3895266,28914,62,0,0.0,0,0,0.0,7,1,0,13,Lovro Majer,Wolfsburg,Right Wing,0
+3895266,41783,61,0,0.0,0,0,0.0,2,0,0,11,Tiago Barreiros de Melo Tomás,Wolfsburg,Left Center Forward,0
+3895266,42754,29,0,0.0,0,0,0.0,6,0,0,10,Amin Sarr,Wolfsburg,Center Forward,0
+3895275,7044,75,2,0.410803544,1,1,0.410803544,22,0,0,9,Patrik Schick,Bayer Leverkusen,Center Forward,1
+3895275,8228,19,0,0.0,0,0,0.0,0,0,0,0,Maximilian Philipp,Freiburg,Right Wing,0
+3895275,8309,34,0,0.0,0,0,0.0,8,0,0,4,Michael Gregoritsch,Freiburg,Center Forward,0
+3895275,11282,60,0,0.0,0,0,0.0,3,3,0,4,Vincenzo Grifo,Freiburg,Left Wing,0
+3895275,12418,75,1,0.13077787,0,0,0.13077787,7,1,1,9,Lucas Höler,Freiburg,Right Wing,1
+3895275,18417,34,0,0.0,0,0,0.0,1,2,0,5,Florent Muslija,Freiburg,Left Wing,0
+3895275,19316,60,1,0.15504521,0,0,0.15504521,8,0,0,7,Roland Sallai,Freiburg,Center Forward,0
+3895286,7044,96,5,0.9354651839999999,1,1,0.9354651839999999,48,0,0,14,Patrik Schick,Bayer Leverkusen,Center Forward,1
+3895286,7829,77,1,0.05932622,0,0,0.05932622,10,0,1,26,Wout Weghorst,Hoffenheim,Right Center Forward,1
+3895286,8962,26,0,0.0,0,0,0.0,4,0,0,4,Ihlas Bebou,Hoffenheim,Left Center Forward,0
+3895286,11391,24,1,0.13514416,0,0,0.13514416,9,1,0,7,Borja Iglesias Quintas,Bayer Leverkusen,Center Forward,0
+3895286,35242,70,2,0.345391153,1,1,0.345391153,10,1,0,12,Maximilian Beier,Hoffenheim,Left Center Forward,1
+3895292,11391,66,2,0.203266516,0,0,0.203266516,21,0,0,7,Borja Iglesias Quintas,Bayer Leverkusen,Center Forward,0
+3895292,24849,52,0,0.0,0,0,0.0,5,1,0,13,Mikkel Kaufmann,Union Berlin,Right Center Forward,0
+3895292,32289,31,0,0.0,0,0,0.0,10,1,0,9,Victor Okoh Boniface,Bayer Leverkusen,Center Forward,0
+3895292,32537,45,1,0.08249883,0,0,0.08249883,7,0,0,8,Yorbe Vertessen,Union Berlin,Center Forward,0
+3895292,48543,20,0,0.0,0,0,0.0,5,0,0,7,Benedict Hollerbach,Union Berlin,Left Center Forward,0
+3895302,5666,21,0,0.0,0,0,0.0,2,0,0,7,Dawid Kownacki,Werder Bremen,Right Center Forward,0
+3895302,7044,28,1,0.109270036,0,0,0.109270036,15,0,0,9,Patrik Schick,Bayer Leverkusen,Center Forward,0
+3895302,12299,89,0,0.0,0,0,0.0,8,0,0,20,Marvin Ducksch,Werder Bremen,Left Center Forward,0
+3895302,32289,61,2,1.106569,1,0,0.323069,20,0,1,18,Victor Okoh Boniface,Bayer Leverkusen,Center Forward,1
+3895302,34870,68,1,0.082292914,0,0,0.082292914,13,0,0,28,Nick Woltemade,Werder Bremen,Right Center Forward,0
+3895309,5559,30,0,0.0,0,0,0.0,6,0,0,14,Marco Reus,Borussia Dortmund,Right Wing,0
+3895309,7044,15,0,0.0,0,0,0.0,3,0,0,0,Patrik Schick,Bayer Leverkusen,Center Forward,0
+3895309,8546,98,1,0.16429694,1,1,0.16429694,14,1,0,33,Niclas Füllkrug,Borussia Dortmund,Center Forward,1
+3895309,32289,15,0,0.0,0,0,0.0,2,0,0,0,Victor Okoh Boniface,Bayer Leverkusen,Center Forward,0
+3895309,161995,82,2,0.048385845999999996,0,0,0.048385845999999996,1,1,0,24,Jamie Jermaine Bynoe-Gittens,Borussia Dortmund,Left Wing,0
+3895309,256297,16,0,0.0,0,0,0.0,4,0,0,4,Julien Duranville,Borussia Dortmund,Right Wing,0
+3895320,7044,73,3,0.41025329099999996,0,0,0.41025329099999996,15,0,0,14,Patrik Schick,Bayer Leverkusen,Center Forward,0
+3895320,9102,97,6,1.434243433,0,0,1.434243433,15,0,0,15,Serhou Guirassy,VfB Stuttgart,Left Center Forward,0
+3895320,22067,24,0,0.0,0,0,0.0,4,1,0,10,Woo-Yeong Jeong,VfB Stuttgart,Right Center Forward,0
+3895320,32289,24,0,0.0,0,0,0.0,8,0,0,6,Victor Okoh Boniface,Bayer Leverkusen,Center Forward,0
+3895320,131243,73,1,0.0791097,1,1,0.0791097,10,3,0,22,Deniz Undav,VfB Stuttgart,Right Center Forward,1
+3895333,7044,60,1,0.19578177,1,1,0.19578177,18,0,0,9,Patrik Schick,Bayer Leverkusen,Center Forward,1
+3895333,28346,79,1,0.04776066,0,0,0.04776066,8,0,0,28,Eric Junior Dina Ebimbe,Eintracht Frankfurt,Right Wing,0
+3895333,32289,34,1,0.7835,1,0,0.0,2,0,0,7,Victor Okoh Boniface,Bayer Leverkusen,Center Forward,0
+3895333,39070,25,1,0.105557114,0,0,0.105557114,6,2,0,2,Ansgar Knauff,Eintracht Frankfurt,Left Wing,0
+3895333,40761,94,4,0.45716991,0,0,0.45716991,25,1,0,22,Omar Marmoush,Eintracht Frankfurt,Left Center Forward,0
+3895333,50429,79,3,0.265956963,1,1,0.265956963,16,2,0,14,Hugo Ekitike,Eintracht Frankfurt,Right Center Forward,1
+3895333,217047,79,4,0.206094968,0,0,0.206094968,5,0,1,20,Fares Chaïbi,Eintracht Frankfurt,Center Forward,1
+3895333,314766,15,2,0.263919256,0,0,0.263919256,8,0,0,3,Ignacio Ferri Julià,Eintracht Frankfurt,Right Center Forward,0
+3895340,7044,68,5,0.379899582,1,1,0.379899582,23,0,0,7,Patrik Schick,Bayer Leverkusen,Center Forward,1
+3895340,8949,19,0,0.0,0,0,0.0,5,0,0,3,Takuma Asano,Bochum,Right Wing,0
+3895340,11391,26,0,0.0,0,0,0.0,6,1,0,4,Borja Iglesias Quintas,Bayer Leverkusen,Center Forward,0
+3895340,18129,34,0,0.0,0,0,0.0,2,1,0,7,Lukas Daschner,Bochum,Center Forward,0
+3895340,28603,60,1,0.12386223,0,0,0.12386223,5,0,0,11,Philipp Hofmann,Bochum,Center Forward,0
+3895340,32289,68,4,1.076389114,1,0,0.292889114,25,0,0,9,Victor Okoh Boniface,Bayer Leverkusen,Center Forward,0
+3895348,6874,90,4,0.226136871,0,0,0.226136871,28,0,0,24,Ermedin Demirović,Augsburg,Right Center Forward,0
+3895348,7044,31,2,0.230597712,0,0,0.230597712,7,0,0,2,Patrik Schick,Bayer Leverkusen,Center Forward,0
+3895348,9221,73,0,0.0,0,0,0.0,4,1,0,9,Phillip Tietz,Augsburg,Right Center Forward,0
+3895348,9227,20,0,0.0,0,0,0.0,8,1,0,6,Sven Michel,Augsburg,Left Center Forward,0
+3895348,32289,62,2,0.8074633640000001,1,1,0.8074633640000001,20,0,0,7,Victor Okoh Boniface,Bayer Leverkusen,Center Forward,1
+3895348,40995,3,0,0.0,0,0,0.0,1,0,0,1,Dion Drena Beljo,Augsburg,Left Center Forward,0

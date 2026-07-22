@@ -1,0 +1,6 @@
+squad,player,primary_position,total_minutes,laliga_model_prob,decision,npga_p90,shots_p90,npxg_p90,touches_in_box_p90,key_passes_p90,pressures_p90
+PSG 2022/23,Kylian Mbappé Lottin,Left Center Forward,2460,0.9794,recommend,1.1341,4.6829,0.7377,28.8293,1.5,7.3537
+Leverkusen 2023/24,Victor Okoh Boniface,Center Forward,1595,0.9477,recommend,1.0157,4.5705,0.7243,29.0596,0.7335,11.4545
+PSG 2022/23,Lionel Andrés Messi Cuccittini,Right Center Forward,2929,0.7849,recommend,0.9218,3.9638,0.4261,15.4865,2.366,7.7433
+Leverkusen 2023/24,Patrik Schick,Center Forward,1110,0.4491,review,0.4865,3.2432,0.3781,29.1081,0.5676,14.5135
+PSG 2022/23,Hugo Ekitike,Center Forward,823,0.1449,not recommended,0.6561,2.0778,0.2667,18.2625,0.3281,15.4192

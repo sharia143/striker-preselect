@@ -1,0 +1,3 @@
+test_league,auc_inleague,auc_transfer_from_laliga,brier_inleague,brier_transfer_from_laliga,recall_top_quartile_at_0.60
+Premier League 2015/16,0.852,0.837,0.1176,0.1318,0.32
+Serie A 2015/16,0.736,0.776,0.1704,0.1604,0.083

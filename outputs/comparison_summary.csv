@@ -1,0 +1,4 @@
+league,forwards,qualified_>=450min,top_quartile_npga_p90,brier_lr,brier_gb,auc_lr,auc_gb,chosen_model,recommend,review,not_recommended,insufficient_evidence
+La Liga 2015/16,140,109,0.559,0.1374,0.1683,0.775,0.756,Logistic Regression,15,27,67,31
+Premier League 2015/16,149,98,0.504,0.1176,0.2228,0.852,0.705,Logistic Regression,13,26,59,51
+Serie A 2015/16,127,95,0.505,0.1704,0.181,0.736,0.681,Logistic Regression,8,30,57,32

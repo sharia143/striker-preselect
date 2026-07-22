@@ -3,3 +3,4 @@ data/events_laliga_1516.pkl
 data/players.db
 __pycache__/
 *.pyc
+.claude/

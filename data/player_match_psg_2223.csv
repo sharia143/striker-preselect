@@ -1,0 +1,200 @@
+match_id,player_id,minutes,shots,xg,goals,np_goals,npxg,touches_in_box,key_passes,assists,pressures,player,team,primary_position,np_goals_assists
+3837650,5503,90,6,1.035569205,2,2,1.035569205,32,3,1,11,Lionel Andrés Messi Cuccittini,Paris Saint-Germain,Right Center Forward,3
+3837650,6720,76,0,0.0,0,0,0.0,15,0,0,12,Pablo Sarabia García,Paris Saint-Germain,Right Wing,0
+3837650,23537,90,2,0.064712646,0,0,0.064712646,14,1,0,10,Komnen Andrić,Clermont Foot,Center Forward,0
+3837650,28376,72,1,0.030378094,0,0,0.030378094,5,0,0,10,Jim Allevinah,Clermont Foot,Right Wing,0
+3837650,29664,18,0,0.0,0,0,0.0,0,0,0,0,Jodel Dossou,Clermont Foot,Right Wing,0
+3837650,50429,14,1,0.031527795,0,0,0.031527795,4,0,0,0,Hugo Ekitike,Paris Saint-Germain,Center Forward,0
+3837659,3009,85,6,1.0730514233,1,1,0.2895514233,40,1,0,4,Kylian Mbappé Lottin,Paris Saint-Germain,Left Center Forward,1
+3837659,3196,77,2,0.5179701360000001,1,1,0.5179701360000001,7,1,0,14,Wahbi Khazri,Montpellier,Center Forward,1
+3837659,3210,15,0,0.0,0,0,0.0,0,0,0,1,Valère Germain,Montpellier,Right Center Forward,0
+3837659,5503,92,5,0.427126812,0,0,0.427126812,16,1,0,6,Lionel Andrés Messi Cuccittini,Paris Saint-Germain,Right Center Forward,0
+3837659,6720,7,0,0.0,0,0,0.0,2,0,0,1,Pablo Sarabia García,Paris Saint-Germain,Right Wing,0
+3837659,50429,3,0,0.0,0,0,0.0,0,0,0,3,Hugo Ekitike,Paris Saint-Germain,Center Forward,0
+3837662,3009,90,6,1.5838898750000001,3,3,1.5838898750000001,36,2,1,17,Kylian Mbappé Lottin,Paris Saint-Germain,Left Center Forward,4
+3837662,4256,90,6,1.261850597,1,1,1.261850597,14,0,0,14,Jonathan Bamba,Lille,Right Wing,1
+3837662,5503,90,2,0.46675142000000003,1,1,0.46675142000000003,12,3,1,10,Lionel Andrés Messi Cuccittini,Paris Saint-Germain,Right Center Forward,2
+3837662,23640,90,3,0.227334143,0,0,0.227334143,11,2,0,21,Jonathan David,Lille,Center Forward,0
+3837662,29594,57,1,0.018065805,0,0,0.018065805,3,1,0,8,Gabriel Gudmundsson,Lille,Right Wing,0
+3837680,3009,96,9,1.224247379,0,0,1.224247379,29,1,0,12,Kylian Mbappé Lottin,Paris Saint-Germain,Left Center Forward,0
+3837680,5503,86,2,0.071626976,0,0,0.071626976,15,1,0,6,Lionel Andrés Messi Cuccittini,Paris Saint-Germain,Right Center Forward,0
+3837680,5545,33,0,0.0,0,0,0.0,4,0,0,5,Breel-Donald Embolo,AS Monaco,Right Center Forward,0
+3837680,6720,10,0,0.0,0,0,0.0,2,0,0,1,Pablo Sarabia García,Paris Saint-Germain,Right Wing,0
+3837680,6723,96,1,0.26837018,0,0,0.26837018,10,0,0,11,Wissam Ben Yedder,AS Monaco,Left Center Forward,0
+3837680,8215,24,1,0.07694851,1,1,0.07694851,2,0,0,8,Kevin Volland,AS Monaco,Right Center Forward,1
+3837680,144884,39,0,0.0,0,0,0.0,5,1,0,11,Maghnes Akliouche,AS Monaco,Right Center Forward,0
+3837683,3009,92,5,0.846218795,1,1,0.846218795,35,3,0,1,Kylian Mbappé Lottin,Paris Saint-Germain,Left Center Forward,1
+3837683,5503,82,7,0.69807559,0,0,0.69807559,22,2,2,3,Lionel Andrés Messi Cuccittini,Paris Saint-Germain,Right Center Forward,2
+3837683,21736,63,1,0.04432038,0,0,0.04432038,8,1,0,14,Zakaria Aboukhlal,Toulouse,Right Wing,0
+3837683,32752,92,1,0.02278388,0,0,0.02278388,3,3,0,23,Rafael Rogério da Silva,Toulouse,Right Wing,0
+3837683,37498,17,2,0.119398266,0,0,0.119398266,8,1,0,0,Ado Onaiwu,Toulouse,Center Forward,0
+3837683,41749,75,4,0.459082373,0,0,0.459082373,10,1,0,6,Thijs Dallinga,Toulouse,Center Forward,0
+3837683,50429,25,1,0.28804097,0,0,0.28804097,1,0,0,1,Hugo Ekitike,Paris Saint-Germain,Center Forward,0
+3837683,217047,29,1,0.05888902,0,0,0.05888902,10,0,0,11,Fares Chaïbi,Toulouse,Left Wing,0
+3837695,3009,62,4,0.82464,2,2,0.82464,30,1,0,2,Kylian Mbappé Lottin,Paris Saint-Germain,Left Center Forward,2
+3837695,4898,27,1,0.0060358993,0,0,0.0060358993,0,0,0,4,Ignatius Kpene Ganago,Nantes,Left Center Forward,0
+3837695,5503,92,6,0.5405571060000001,0,0,0.5405571060000001,51,2,2,6,Lionel Andrés Messi Cuccittini,Paris Saint-Germain,Right Center Forward,2
+3837695,6720,70,2,0.66110395,0,0,0.66110395,23,2,0,14,Pablo Sarabia García,Paris Saint-Germain,Right Wing,0
+3837695,50429,22,0,0.0,0,0,0.0,5,0,0,0,Hugo Ekitike,Paris Saint-Germain,Center Forward,0
+3837695,66886,79,0,0.0,0,0,0.0,18,1,0,12,Mostafa Mohamed Ahmed Abdallah,Nantes,Center Forward,0
+3837706,3009,77,4,0.49590812800000006,0,0,0.49590812800000006,24,1,0,9,Kylian Mbappé Lottin,Paris Saint-Germain,Left Center Forward,0
+3837706,3199,70,1,0.027340233,0,0,0.027340233,4,2,0,32,Pierre Lees Melou,Stade Brestois,Left Wing,0
+3837706,3811,95,2,0.95052491,0,0,0.16702491,11,0,0,14,Islam Slimani,Stade Brestois,Center Forward,0
+3837706,5503,95,4,0.54584869,0,0,0.54584869,14,3,1,9,Lionel Andrés Messi Cuccittini,Paris Saint-Germain,Right Center Forward,1
+3837706,6720,18,0,0.0,0,0,0.0,0,1,0,3,Pablo Sarabia García,Paris Saint-Germain,Right Wing,0
+3837706,7198,95,1,0.022045681,0,0,0.022045681,11,1,0,25,Franck Honorat,Stade Brestois,Right Wing,0
+3837706,24014,8,0,0.0,0,0,0.0,1,0,0,3,Irvin Cardona,Stade Brestois,Right Wing,0
+3837706,50429,18,0,0.0,0,0,0.0,4,0,0,1,Hugo Ekitike,Paris Saint-Germain,Center Forward,0
+3837717,3009,94,3,0.22418693799999997,0,0,0.22418693799999997,29,1,0,5,Kylian Mbappé Lottin,Paris Saint-Germain,Left Center Forward,0
+3837717,3451,94,3,0.27115606800000003,0,0,0.27115606800000003,13,4,0,27,Alexandre Lacazette,Lyon,Left Center Forward,0
+3837717,5503,94,7,0.76011993,1,1,0.76011993,19,2,0,16,Lionel Andrés Messi Cuccittini,Paris Saint-Germain,Right Center Forward,1
+3837717,12509,94,4,0.33411251,0,0,0.33411251,18,0,0,10,Moussa Dembélé,Lyon,Right Center Forward,0
+3837717,39420,8,0,0.0,0,0,0.0,0,0,0,5,Bradley Barcola,Lyon,Left Center Forward,0
+3837727,3009,36,1,0.17282794,1,1,0.17282794,10,0,0,3,Kylian Mbappé Lottin,Paris Saint-Germain,Left Center Forward,1
+3837727,3038,11,0,0.0,0,0,0.0,0,0,0,3,Andy Delort,OGC Nice,Center Forward,0
+3837727,3190,83,1,0.2619541,1,1,0.2619541,13,0,0,31,Gaëtan Laborde,OGC Nice,Center Forward,1
+3837727,4275,61,0,0.0,0,0,0.0,1,0,0,10,Ross Barkley,OGC Nice,Right Wing,0
+3837727,5503,87,4,0.180701265,1,1,0.180701265,13,1,0,9,Lionel Andrés Messi Cuccittini,Paris Saint-Germain,Right Center Forward,1
+3837727,6720,7,0,0.0,0,0,0.0,0,2,0,3,Pablo Sarabia García,Paris Saint-Germain,Right Wing,0
+3837727,10463,94,0,0.0,0,0,0.0,5,1,0,15,Sofiane Diop,OGC Nice,Left Wing,0
+3837727,50429,58,0,0.0,0,0,0.0,6,0,0,13,Hugo Ekitike,Paris Saint-Germain,Center Forward,0
+3837747,3009,95,7,0.48609139799999995,0,0,0.48609139799999995,38,5,1,8,Kylian Mbappé Lottin,Paris Saint-Germain,Left Center Forward,1
+3837747,3385,78,3,0.152422946,0,0,0.152422946,14,2,0,13,Alexis Alejandro Sánchez Sánchez,Marseille,Center Forward,0
+3837747,5503,79,6,0.552639616,0,0,0.552639616,13,3,0,8,Lionel Andrés Messi Cuccittini,Paris Saint-Germain,Right Center Forward,0
+3837747,6720,16,1,0.07218588,0,0,0.07218588,4,1,0,4,Pablo Sarabia García,Paris Saint-Germain,Right Wing,0
+3837747,88123,17,0,0.0,0,0,0.0,2,0,0,2,Cheikh Ahmadou Bamba Mbacke Dieng,Marseille,Center Forward,0
+3837752,3009,82,4,1.34932856,2,2,1.34932856,21,1,1,1,Kylian Mbappé Lottin,Paris Saint-Germain,Left Center Forward,3
+3837752,4260,36,0,0.0,0,0,0.0,6,1,0,11,Romain Hamouma,AC Ajaccio,Left Center Forward,0
+3837752,5503,92,2,0.9584328769999999,1,1,0.9584328769999999,18,2,2,3,Lionel Andrés Messi Cuccittini,Paris Saint-Germain,Right Center Forward,3
+3837752,6720,22,0,0.0,0,0,0.0,5,0,0,1,Pablo Sarabia García,Paris Saint-Germain,Right Wing,0
+3837752,7715,56,1,0.051373817,0,0,0.051373817,9,0,0,12,Bevic Moussiti-Oko,AC Ajaccio,Left Center Forward,0
+3837752,7811,19,0,0.0,0,0,0.0,0,0,0,6,Mickaël Barreto,AC Ajaccio,Right Wing,0
+3837752,20879,73,2,0.063044283,0,0,0.063044283,21,0,0,26,Mounaim El Idrissy,AC Ajaccio,Right Center Forward,0
+3837752,50429,10,0,0.0,0,0,0.0,0,0,0,1,Hugo Ekitike,Paris Saint-Germain,Center Forward,0
+3837771,3009,93,5,1.268164395,1,0,0.484664395,45,3,0,3,Kylian Mbappé Lottin,Paris Saint-Germain,Left Center Forward,0
+3837771,3218,93,5,0.315013332,0,0,0.315013332,13,2,1,13,Marcos Paulo Mesquita Lopes,Troyes,Right Wing,1
+3837771,4106,13,2,0.167623978,0,0,0.167623978,5,0,0,1,Ike Ugbo,Troyes,Left Center Forward,0
+3837771,5503,93,3,0.118562646,1,1,0.118562646,21,1,1,9,Lionel Andrés Messi Cuccittini,Paris Saint-Germain,Right Center Forward,2
+3837771,6720,9,0,0.0,0,0,0.0,0,0,0,2,Pablo Sarabia García,Paris Saint-Germain,Right Wing,0
+3837771,12064,93,5,0.5149247794,2,2,0.5149247794,17,0,0,26,Mama Samba Baldé,Troyes,Center Forward,2
+3837771,151924,80,1,0.023950828,0,0,0.023950828,1,0,1,25,Wilson Odobert,Troyes,Left Wing,1
+3837785,3009,91,1,0.14545006,1,1,0.14545006,18,0,0,8,Kylian Mbappé Lottin,Paris Saint-Germain,Left Center Forward,1
+3837785,3105,34,0,0.0,0,0,0.0,1,1,0,4,Gauthier Hein,Auxerre,Right Wing,0
+3837785,3216,34,1,0.015472754,0,0,0.015472754,8,0,0,2,Nuno Miguel da Costa Jóia,Auxerre,Center Forward,0
+3837785,5503,74,2,0.13843819000000002,0,0,0.13843819000000002,12,0,0,6,Lionel Andrés Messi Cuccittini,Paris Saint-Germain,Right Center Forward,0
+3837785,5661,57,2,0.1419999,0,0,0.1419999,14,0,0,9,M''Baye Babacar Niang,Auxerre,Center Forward,0
+3837785,6720,17,0,0.0,0,0,0.0,0,1,0,1,Pablo Sarabia García,Paris Saint-Germain,Right Wing,0
+3837785,7434,68,1,0.009508366,0,0,0.009508366,7,3,0,17,Mathias Autret,Auxerre,Left Wing,0
+3837785,7525,35,1,0.033958174,0,0,0.033958174,0,0,0,8,Gaëtan Perrin,Auxerre,Right Wing,0
+3837785,50429,17,1,0.4344345,1,1,0.4344345,8,1,1,2,Hugo Ekitike,Paris Saint-Germain,Center Forward,2
+3837785,105182,56,1,0.011682027,0,0,0.011682027,12,1,0,11,Lassine Sinayoko,Auxerre,Left Wing,0
+3837818,3429,61,0,0.0,0,0,0.0,5,1,0,16,Adrien Hunou,Angers,Right Center Forward,0
+3837818,5503,94,2,0.39105531,1,1,0.39105531,8,1,0,7,Lionel Andrés Messi Cuccittini,Paris Saint-Germain,Right Center Forward,1
+3837818,49520,79,1,0.12859409,0,0,0.12859409,10,0,0,13,Abdallah Dipo Sima,Angers,Left Center Forward,0
+3837818,50429,79,2,0.5061294,1,1,0.5061294,15,0,0,22,Hugo Ekitike,Paris Saint-Germain,Center Forward,1
+3837827,3009,41,1,0.6033101,0,0,0.6033101,9,1,0,2,Kylian Mbappé Lottin,Paris Saint-Germain,Left Center Forward,0
+3837827,4435,88,1,0.057647407,0,0,0.057647407,12,0,0,17,Amine Gouiri,Rennes,Left Wing,0
+3837827,5503,96,3,0.269571465,0,0,0.269571465,4,1,0,7,Lionel Andrés Messi Cuccittini,Paris Saint-Germain,Right Center Forward,0
+3837827,23650,29,0,0.0,0,0,0.0,0,0,0,10,Jeremy Doku,Rennes,Left Wing,0
+3837827,35658,8,0,0.0,0,0,0.0,0,1,0,3,Kamaldeen Sulemana,Rennes,Center Forward,0
+3837827,35705,74,2,0.18863709499999998,0,0,0.18863709499999998,4,0,0,12,Arnaud Kalimuendo Muinga,Rennes,Center Forward,0
+3837827,39245,22,1,0.10414673,0,0,0.10414673,1,0,0,4,Lorenz Assignon,Rennes,Right Wing,0
+3837827,50429,55,0,0.0,0,0,0.0,5,0,0,11,Hugo Ekitike,Paris Saint-Germain,Center Forward,0
+3837827,214013,67,0,0.0,0,0,0.0,0,0,0,17,Désiré Doué,Rennes,Right Wing,0
+3837839,3009,96,4,0.323715548,0,0,0.323715548,39,0,0,7,Kylian Mbappé Lottin,Paris Saint-Germain,Left Center Forward,0
+3837839,5503,96,4,0.442446386,0,0,0.442446386,23,0,0,10,Lionel Andrés Messi Cuccittini,Paris Saint-Germain,Right Center Forward,0
+3837839,51733,96,6,0.9296781949999999,1,1,0.9296781949999999,38,0,0,22,Folarin Balogun,Stade de Reims,Center Forward,1
+3837844,3009,21,2,1.3255477,0,0,0.5420477,6,1,0,0,Kylian Mbappé Lottin,Paris Saint-Germain,Left Center Forward,0
+3837844,3210,61,0,0.0,0,0,0.0,1,0,0,16,Valère Germain,Montpellier,Right Center Forward,0
+3837844,4121,94,3,0.191230915,0,0,0.191230915,15,0,0,23,Stephy Alvaro Mavididi,Montpellier,Left Center Forward,0
+3837844,5503,94,9,1.208648089,1,1,1.208648089,19,2,0,9,Lionel Andrés Messi Cuccittini,Paris Saint-Germain,Right Center Forward,1
+3837844,50429,73,1,0.3911124,0,0,0.3911124,12,0,1,5,Hugo Ekitike,Paris Saint-Germain,Center Forward,1
+3837844,356762,33,0,0.0,0,0,0.0,8,0,0,11,Sérigné Faye,Montpellier,Right Center Forward,0
+3837859,5503,94,6,0.428056654,1,1,0.428056654,18,7,0,10,Lionel Andrés Messi Cuccittini,Paris Saint-Germain,Right Center Forward,1
+3837859,21736,80,1,0.021727845,0,0,0.021727845,6,0,0,20,Zakaria Aboukhlal,Toulouse,Right Wing,0
+3837859,37498,61,0,0.0,0,0,0.0,7,0,0,26,Ado Onaiwu,Toulouse,Center Forward,0
+3837859,41749,33,1,0.07181785,0,0,0.07181785,14,1,0,8,Thijs Dallinga,Toulouse,Center Forward,0
+3837859,50429,88,3,0.166414945,0,0,0.166414945,21,0,0,10,Hugo Ekitike,Paris Saint-Germain,Center Forward,0
+3837859,217047,94,2,0.022723909,0,0,0.022723909,5,0,0,32,Fares Chaïbi,Toulouse,Left Wing,0
+3837876,3009,97,4,0.315185264,2,2,0.315185264,27,1,0,12,Kylian Mbappé Lottin,Paris Saint-Germain,Left Center Forward,2
+3837876,3420,87,2,0.45609115,0,0,0.45609115,7,2,0,21,Rémy Cabella,Lille,Left Wing,0
+3837876,4256,97,1,0.12389849,1,1,0.12389849,18,1,0,20,Jonathan Bamba,Lille,Right Wing,1
+3837876,5503,97,2,0.294154605,1,1,0.294154605,8,3,0,6,Lionel Andrés Messi Cuccittini,Paris Saint-Germain,Right Center Forward,1
+3837876,23640,97,7,1.3293438535,1,0,0.5458438535,32,2,0,35,Jonathan David,Lille,Center Forward,0
+3837876,29594,32,0,0.0,0,0,0.0,0,0,0,3,Gabriel Gudmundsson,Lille,Right Wing,0
+3837876,50429,47,2,0.13022295,0,0,0.13022295,5,0,0,13,Hugo Ekitike,Paris Saint-Germain,Center Forward,0
+3837885,3009,92,7,1.158008003,2,2,1.158008003,20,1,1,9,Kylian Mbappé Lottin,Paris Saint-Germain,Left Center Forward,3
+3837885,3385,80,3,0.265016765,0,0,0.265016765,13,2,0,13,Alexis Alejandro Sánchez Sánchez,Olympique de Marseille,Center Forward,0
+3837885,5503,92,2,0.83443721,1,1,0.83443721,12,1,2,16,Lionel Andrés Messi Cuccittini,Paris Saint-Germain,Right Center Forward,3
+3837885,46258,12,0,0.0,0,0,0.0,1,0,0,4,Azzedine Ounahi,Olympique de Marseille,Right Center Forward,0
+3837885,63413,12,1,0.3972966,0,0,0.3972966,6,0,0,2,Vítor Manuel Carvalho Oliveira,Olympique de Marseille,Left Center Forward,0
+3837896,3009,95,6,0.581126424,1,1,0.581126424,28,1,0,6,Kylian Mbappé Lottin,Paris Saint-Germain,Left Center Forward,1
+3837896,4898,79,4,0.327568557,1,1,0.327568557,16,1,0,19,Ignatius Kpene Ganago,Nantes,Left Center Forward,1
+3837896,5503,95,7,0.5319496015,1,1,0.5319496015,11,2,0,6,Lionel Andrés Messi Cuccittini,Paris Saint-Germain,Right Center Forward,1
+3837896,66886,26,1,0.036846522,0,0,0.036846522,3,0,0,3,Mostafa Mohamed Ahmed Abdallah,Nantes,Center Forward,0
+3837902,3009,95,6,1.515726156,1,1,1.515726156,41,1,0,8,Kylian Mbappé Lottin,Paris Saint-Germain,Left Center Forward,1
+3837902,3199,95,0,0.0,0,0,0.0,1,2,0,25,Pierre Lees Melou,Stade Brestois,Left Wing,0
+3837902,3257,66,1,0.0866007,0,0,0.0866007,13,0,0,42,Steve Michel Mounié,Stade Brestois,Center Forward,0
+3837902,5503,95,4,0.28589495,0,0,0.28589495,13,4,1,7,Lionel Andrés Messi Cuccittini,Paris Saint-Germain,Right Center Forward,1
+3837902,7198,95,2,0.32531601699999996,1,1,0.32531601699999996,7,2,0,16,Franck Honorat,Stade Brestois,Right Wing,1
+3837902,45172,29,0,0.0,0,0,0.0,4,0,0,8,Jérémy Le Douaron,Stade Brestois,Center Forward,0
+3837902,50429,15,0,0.0,0,0,0.0,2,0,0,2,Hugo Ekitike,Paris Saint-Germain,Center Forward,0
+3837918,3009,96,6,0.8632400659999999,0,0,0.8632400659999999,27,2,0,5,Kylian Mbappé Lottin,Paris Saint-Germain,Left Center Forward,0
+3837918,4435,26,0,0.0,0,0,0.0,0,0,0,5,Amine Gouiri,Rennes,Left Wing,0
+3837918,5503,96,4,0.271216963,0,0,0.271216963,4,5,0,6,Lionel Andrés Messi Cuccittini,Paris Saint-Germain,Right Center Forward,0
+3837918,35705,78,2,0.629799025,1,1,0.629799025,16,1,0,34,Arnaud Kalimuendo Muinga,Rennes,Center Forward,1
+3837918,50429,41,2,0.08941808400000001,0,0,0.08941808400000001,12,0,0,4,Hugo Ekitike,Paris Saint-Germain,Center Forward,0
+3837918,214013,70,0,0.0,0,0,0.0,3,2,0,26,Désiré Doué,Rennes,Right Wing,0
+3837918,282381,18,0,0.0,0,0,0.0,1,0,0,10,Ibrahim Salah,Rennes,Right Wing,0
+3837928,3009,94,3,0.254209766,0,0,0.254209766,27,1,0,8,Kylian Mbappé Lottin,Paris Saint-Germain,Left Center Forward,0
+3837928,3451,68,2,0.86823671,0,0,0.08473671,11,1,0,28,Alexandre Lacazette,Lyon,Left Center Forward,0
+3837928,5503,94,3,0.108429745,0,0,0.108429745,20,5,0,8,Lionel Andrés Messi Cuccittini,Paris Saint-Germain,Right Center Forward,0
+3837928,12509,26,1,0.25273198,0,0,0.25273198,3,0,0,6,Moussa Dembélé,Lyon,Right Center Forward,0
+3837928,39420,72,2,0.45595652600000003,1,1,0.45595652600000003,11,0,0,57,Bradley Barcola,Lyon,Left Center Forward,1
+3837928,42754,22,0,0.0,0,0,0.0,6,1,0,5,Amin Sarr,Lyon,Left Center Forward,0
+3837928,50429,35,1,0.015434411,0,0,0.015434411,14,1,0,10,Hugo Ekitike,Paris Saint-Germain,Center Forward,0
+3837938,3009,93,1,0.032631345,0,0,0.032631345,20,2,0,10,Kylian Mbappé Lottin,Paris Saint-Germain,Left Center Forward,0
+3837938,3190,19,1,0.055899505,0,0,0.055899505,15,0,0,8,Gaëtan Laborde,OGC Nice,Center Forward,0
+3837938,4275,11,1,0.037763458,0,0,0.037763458,0,0,0,6,Ross Barkley,OGC Nice,Right Wing,0
+3837938,5503,93,3,0.209205546,1,1,0.209205546,11,2,1,13,Lionel Andrés Messi Cuccittini,Paris Saint-Germain,Right Center Forward,2
+3837938,34335,82,3,0.20935652,0,0,0.20935652,22,3,0,23,Terem Igobor Moffi,OGC Nice,Center Forward,0
+3837938,308252,11,0,0.0,0,0,0.0,4,0,0,0,Badredine Bouanani,OGC Nice,Center Forward,0
+3837947,3009,92,5,0.486877844,1,1,0.486877844,20,2,1,11,Kylian Mbappé Lottin,Paris Saint-Germain,Left Center Forward,2
+3837947,5503,92,5,0.502830342,1,1,0.502830342,15,3,0,12,Lionel Andrés Messi Cuccittini,Paris Saint-Germain,Right Center Forward,1
+3837947,16275,92,8,0.521705712,0,0,0.521705712,34,1,0,26,Ikoma Loïs Openda,Lens,Center Forward,0
+3837954,2997,68,2,0.21684104599999998,0,0,0.21684104599999998,21,2,0,30,Ibrahima Niane,Angers,Right Center Forward,0
+3837954,3009,92,5,1.433221205,2,2,1.433221205,36,2,0,11,Kylian Mbappé Lottin,Paris Saint-Germain,Left Center Forward,2
+3837954,3429,92,2,0.153664283,0,0,0.153664283,13,0,0,36,Adrien Hunou,Angers,Right Center Forward,0
+3837954,5503,92,2,0.260472054,0,0,0.260472054,8,1,0,6,Lionel Andrés Messi Cuccittini,Paris Saint-Germain,Right Center Forward,0
+3837954,49520,24,1,0.03962668,0,0,0.03962668,11,0,1,8,Abdallah Dipo Sima,Angers,Left Center Forward,1
+3837954,291796,87,3,0.147489417,0,0,0.147489417,16,0,0,43,Jean-Mattéo Bahoya Négoce,Angers,Left Center Forward,0
+3837963,3009,94,6,1.499777573,1,1,1.499777573,20,1,0,7,Kylian Mbappé Lottin,Paris Saint-Germain,Left Center Forward,1
+3837963,5503,94,1,0.039323296,0,0,0.039323296,9,2,0,4,Lionel Andrés Messi Cuccittini,Paris Saint-Germain,Right Center Forward,0
+3837963,29712,64,2,0.188724423,0,0,0.188724423,13,1,0,18,Ibrahima Koné,Lorient,Center Forward,0
+3837963,50429,30,0,0.0,0,0,0.0,0,0,0,4,Hugo Ekitike,Paris Saint-Germain,Center Forward,0
+3837963,88123,30,3,1.58084582,1,1,1.58084582,12,0,0,9,Cheikh Ahmadou Bamba Mbacke Dieng,Lorient,Center Forward,1
+3837987,3009,90,6,0.934133016,2,2,0.934133016,61,1,0,10,Kylian Mbappé Lottin,Paris Saint-Germain,Left Center Forward,2
+3837987,5503,90,3,0.169274428,0,0,0.169274428,25,2,0,5,Lionel Andrés Messi Cuccittini,Paris Saint-Germain,Right Center Forward,0
+3837987,7811,82,4,0.16017276600000002,0,0,0.16017276600000002,7,0,0,48,Mickaël Barreto,AC Ajaccio,Right Wing,0
+3837987,20879,63,0,0.0,0,0,0.0,0,0,0,30,Mounaim El Idrissy,AC Ajaccio,Right Center Forward,0
+3837987,48411,63,0,0.0,0,0,0.0,3,0,0,30,Kevin Spadanuda,AC Ajaccio,Left Wing,0
+3837987,50429,82,0,0.0,0,0,0.0,32,1,1,15,Hugo Ekitike,Paris Saint-Germain,Center Forward,1
+3837987,350488,28,1,0.0585685,0,0,0.0585685,7,1,0,7,Moussa Soumano,AC Ajaccio,Center Forward,0
+3837998,3009,95,7,0.92513506,2,2,0.92513506,20,2,0,11,Kylian Mbappé Lottin,Paris Saint-Germain,Left Center Forward,2
+3837998,3105,85,4,0.297921655,0,0,0.297921655,11,0,0,19,Gauthier Hein,Auxerre,Right Wing,0
+3837998,3216,85,1,0.06422691,0,0,0.06422691,27,2,1,8,Nuno Miguel da Costa Jóia,Auxerre,Center Forward,1
+3837998,5503,95,4,0.294325232,0,0,0.294325232,21,5,0,6,Lionel Andrés Messi Cuccittini,Paris Saint-Germain,Right Center Forward,0
+3837998,5661,10,0,0.0,0,0,0.0,3,0,0,6,M''Baye Babacar Niang,Auxerre,Center Forward,0
+3837998,7525,10,0,0.0,0,0,0.0,2,0,0,4,Gaëtan Perrin,Auxerre,Right Wing,0
+3837998,9428,10,1,0.04406594,0,0,0.04406594,0,0,0,3,Siriki Dembele,Auxerre,Left Wing,0
+3837998,50429,54,0,0.0,0,0,0.0,7,0,1,9,Hugo Ekitike,Paris Saint-Germain,Center Forward,1
+3837998,105182,85,3,0.25695066899999996,1,1,0.25695066899999996,11,1,0,22,Lassine Sinayoko,Auxerre,Left Wing,1
+3838004,3009,91,1,0.38145334,0,0,0.38145334,17,0,1,5,Kylian Mbappé Lottin,Paris Saint-Germain,Left Center Forward,1
+3838004,5503,91,3,0.301137106,1,1,0.301137106,7,4,0,8,Lionel Andrés Messi Cuccittini,Paris Saint-Germain,Right Center Forward,1
+3838004,18516,91,5,0.349991497,0,0,0.349991497,30,0,0,21,Habibou Mouhamadou Diallo,Strasbourg,Center Forward,0
+3838017,3009,93,3,0.971568724,1,0,0.18806872400000002,15,3,0,6,Kylian Mbappé Lottin,Paris Saint-Germain,Left Center Forward,0
+3838017,5503,93,6,0.529808187,0,0,0.529808187,10,3,0,4,Lionel Andrés Messi Cuccittini,Paris Saint-Germain,Right Center Forward,0
+3838017,7367,83,2,1.22800635,1,1,0.44450635,22,1,0,19,Grejohn Kyei,Clermont Foot,Center Forward,1
+3838017,23537,10,0,0.0,0,0,0.0,0,0,0,3,Komnen Andrić,Clermont Foot,Center Forward,0
+3838017,28376,48,0,0.0,0,0,0.0,4,0,0,8,Jim Allevinah,Clermont Foot,Right Wing,0
+3838017,50429,57,5,0.386500658,0,0,0.386500658,14,0,0,15,Hugo Ekitike,Paris Saint-Germain,Center Forward,0

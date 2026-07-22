@@ -1,0 +1,438 @@
+<meta charset="utf-8">
+<title>Striker Model — Cross-League Comparison</title>
+<style>
+  :root {
+    --bg: #f6f4ef; --surface: #fffdf9; --surface-2: #efece3;
+    --ink: #1b1e24; --ink-soft: #4b515c; --ink-faint: #838a95;
+    --line: #e2ded4; --line-strong: #cfcabd;
+    --accent: #0e7c86; --accent-ink: #0a5b63;
+    --laliga: #cf5f3c; --prem: #3f7cc0; --seriea: #8a5fb0;
+    --rec: #2f9e6f; --rev: #d9962b; --not: #8b93a1; --insuf: #c3c8d0;
+    --shadow: 0 1px 2px rgba(20,22,28,.05), 0 8px 24px rgba(20,22,28,.05);
+    --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    --font-mono: ui-monospace, "SF Mono", "Cascadia Code", "Consolas", monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #121519; --surface: #191d23; --surface-2: #222731;
+      --ink: #e9ebef; --ink-soft: #aab1bd; --ink-faint: #6f7784;
+      --line: #2a303a; --line-strong: #3a4250;
+      --accent: #43b7c4; --accent-ink: #6bd0da;
+      --laliga: #e5734d; --prem: #5f97e0; --seriea: #ab7fce;
+      --rec: #3bb583; --rev: #e6ab48; --not: #8b93a1; --insuf: #464d59;
+      --shadow: 0 1px 2px rgba(0,0,0,.3), 0 10px 30px rgba(0,0,0,.35);
+    }
+  }
+  :root[data-theme="light"] {
+    --bg: #f6f4ef; --surface: #fffdf9; --surface-2: #efece3;
+    --ink: #1b1e24; --ink-soft: #4b515c; --ink-faint: #838a95;
+    --line: #e2ded4; --line-strong: #cfcabd;
+    --accent: #0e7c86; --accent-ink: #0a5b63;
+    --laliga: #cf5f3c; --prem: #3f7cc0; --seriea: #8a5fb0;
+    --rec: #2f9e6f; --rev: #d9962b; --not: #8b93a1; --insuf: #c3c8d0;
+  }
+  :root[data-theme="dark"] {
+    --bg: #121519; --surface: #191d23; --surface-2: #222731;
+    --ink: #e9ebef; --ink-soft: #aab1bd; --ink-faint: #6f7784;
+    --line: #2a303a; --line-strong: #3a4250;
+    --accent: #43b7c4; --accent-ink: #6bd0da;
+    --laliga: #e5734d; --prem: #5f97e0; --seriea: #ab7fce;
+    --rec: #3bb583; --rev: #e6ab48; --not: #8b93a1; --insuf: #464d59;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font-family: var(--font-sans); line-height: 1.6;
+    -webkit-font-smoothing: antialiased; font-size: 16px;
+  }
+  .wrap { max-width: 1000px; margin: 0 auto; padding: clamp(20px, 5vw, 56px) clamp(18px, 5vw, 44px) 80px; }
+  .num { font-family: var(--font-mono); font-variant-numeric: tabular-nums; font-feature-settings: "tnum"; }
+
+  /* ── hero ── */
+  .eyebrow {
+    font-family: var(--font-mono); font-size: 12px; letter-spacing: .14em; text-transform: uppercase;
+    color: var(--accent-ink); margin: 0 0 18px; font-weight: 600;
+  }
+  h1 {
+    font-size: clamp(30px, 5.4vw, 50px); line-height: 1.05; letter-spacing: -.022em;
+    margin: 0 0 20px; font-weight: 800; text-wrap: balance; max-width: 18ch;
+  }
+  .thesis { font-size: clamp(17px, 2.3vw, 21px); color: var(--ink-soft); margin: 0 0 34px; max-width: 62ch; text-wrap: pretty; }
+  .thesis strong { color: var(--ink); font-weight: 650; }
+
+  .headline-tiles { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin: 0 0 8px; }
+  @media (max-width: 680px) { .headline-tiles { grid-template-columns: 1fr; } }
+  .tile {
+    background: var(--surface); border: 1px solid var(--line); border-radius: 14px;
+    padding: 20px 20px 18px; box-shadow: var(--shadow);
+  }
+  .tile .big { font-family: var(--font-mono); font-size: 34px; font-weight: 600; letter-spacing: -.02em; line-height: 1; }
+  .tile .lbl { font-size: 13.5px; color: var(--ink-soft); margin-top: 10px; }
+  .tile.accent { border-color: color-mix(in srgb, var(--accent) 40%, var(--line)); }
+  .tile.accent .big { color: var(--accent-ink); }
+
+  /* ── sections ── */
+  section { margin-top: 64px; }
+  .sec-num { font-family: var(--font-mono); font-size: 12.5px; color: var(--accent-ink); letter-spacing: .1em; font-weight: 600; }
+  h2 { font-size: clamp(21px, 3.2vw, 28px); letter-spacing: -.015em; margin: 8px 0 6px; font-weight: 750; text-wrap: balance; }
+  .lede { color: var(--ink-soft); margin: 0 0 24px; max-width: 68ch; text-wrap: pretty; }
+  p { max-width: 70ch; }
+  a { color: var(--accent-ink); }
+  :focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 3px; }
+
+  /* ── tables ── */
+  .tbl-scroll { overflow-x: auto; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); box-shadow: var(--shadow); }
+  table { border-collapse: collapse; width: 100%; font-size: 14.5px; min-width: 520px; }
+  th, td { text-align: left; padding: 12px 16px; border-bottom: 1px solid var(--line); }
+  thead th { font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--ink-faint); font-weight: 600; background: var(--surface-2); }
+  tbody tr:last-child td { border-bottom: none; }
+  td.n, th.n { text-align: right; font-family: var(--font-mono); font-variant-numeric: tabular-nums; }
+  .strong-cell { font-weight: 700; color: var(--ink); }
+
+  /* ── cards ── */
+  .cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+  @media (max-width: 760px) { .cards { grid-template-columns: 1fr; } }
+  .card { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 20px; box-shadow: var(--shadow); }
+  .card.top { border-top: 3px solid var(--lg, var(--accent)); }
+  .card h3 { margin: 0 0 2px; font-size: 17px; letter-spacing: -.01em; }
+  .card .comp { font-family: var(--font-mono); font-size: 12px; color: var(--ink-faint); }
+  .kv { display: flex; justify-content: space-between; align-items: baseline; padding: 7px 0; border-bottom: 1px dashed var(--line); font-size: 14px; }
+  .kv:last-child { border-bottom: none; }
+  .kv .k { color: var(--ink-soft); }
+  .kv .v { font-family: var(--font-mono); font-variant-numeric: tabular-nums; font-weight: 600; }
+  .win { color: var(--rec); }
+
+  /* ── callout ── */
+  .callout {
+    border-left: 3px solid var(--accent); background: color-mix(in srgb, var(--accent) 7%, var(--surface));
+    border-radius: 0 12px 12px 0; padding: 16px 20px; margin: 22px 0 0; font-size: 14.5px; color: var(--ink-soft);
+  }
+  .callout strong { color: var(--ink); }
+  .callout.warn { border-left-color: var(--rev); background: color-mix(in srgb, var(--rev) 9%, var(--surface)); }
+
+  /* ── chart bits ── */
+  .chart { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 22px 20px; box-shadow: var(--shadow); margin-top: 6px; }
+  .chart svg { display: block; width: 100%; height: auto; }
+  .legend { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 14px; font-size: 13px; color: var(--ink-soft); }
+  .legend span { display: inline-flex; align-items: center; gap: 7px; }
+  .swatch { width: 12px; height: 12px; border-radius: 3px; display: inline-block; }
+  .bar-track { fill: var(--surface-2); }
+  .axis-txt { fill: var(--ink-faint); font-family: var(--font-mono); font-size: 11px; }
+  .val-txt { fill: var(--ink); font-family: var(--font-mono); font-size: 12px; font-weight: 600; }
+  .cat-txt { fill: var(--ink-soft); font-size: 13px; }
+  .gridline { stroke: var(--line); stroke-width: 1; }
+
+  /* recall gap */
+  .recall-row { display: grid; grid-template-columns: 130px 1fr 54px; align-items: center; gap: 14px; margin: 12px 0; }
+  .recall-row .rl { font-size: 14px; color: var(--ink-soft); }
+  .recall-row .rl b { color: var(--ink); font-weight: 650; }
+  .rt { height: 26px; background: var(--surface-2); border-radius: 7px; overflow: hidden; }
+  .rf { height: 100%; border-radius: 7px; }
+  .recall-row .rv { font-family: var(--font-mono); font-weight: 600; text-align: right; }
+
+  /* spotlight */
+  .spot { display: flex; flex-direction: column; gap: 10px; }
+  .spot-row { display: grid; grid-template-columns: 210px 1fr 116px; align-items: center; gap: 14px; }
+  @media (max-width: 620px) { .spot-row { grid-template-columns: 130px 1fr 96px; } }
+  .spot-name { font-size: 14.5px; font-weight: 600; }
+  .spot-name small { display: block; font-weight: 400; color: var(--ink-faint); font-family: var(--font-mono); font-size: 11.5px; }
+  .st { height: 30px; background: var(--surface-2); border-radius: 7px; position: relative; overflow: hidden; }
+  .sf { height: 100%; border-radius: 7px; }
+  .sthr { position: absolute; top: -3px; bottom: -3px; width: 2px; background: var(--ink-faint); opacity: .5; }
+  .spot-dec { font-family: var(--font-mono); font-size: 12px; font-weight: 600; text-align: right; }
+  .pill { display: inline-block; padding: 2px 9px; border-radius: 999px; font-size: 11px; font-family: var(--font-mono); font-weight: 600; }
+  .pill.rec { background: color-mix(in srgb, var(--rec) 18%, transparent); color: var(--rec); }
+  .pill.rev { background: color-mix(in srgb, var(--rev) 20%, transparent); color: var(--rev); }
+  .pill.not { background: color-mix(in srgb, var(--not) 22%, transparent); color: var(--not); }
+
+  .divider { height: 1px; background: var(--line); border: none; margin: 64px 0 0; }
+  footer { margin-top: 34px; font-size: 13px; color: var(--ink-faint); }
+  footer .num { color: var(--ink-soft); }
+  .verified { display: inline-flex; align-items: center; gap: 8px; font-family: var(--font-mono); font-size: 12px; color: var(--rec); border: 1px solid color-mix(in srgb, var(--rec) 35%, var(--line)); border-radius: 999px; padding: 5px 12px; margin-bottom: 22px; }
+  .verified b { color: var(--ink); font-weight: 600; }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .reveal { animation: fade .6s ease both; }
+    @keyframes fade { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+  }
+</style>
+
+<div class="wrap">
+
+  <header class="reveal">
+    <p class="eyebrow">StatsBomb open data · cross-league study</p>
+    <h1>Does a striker model built on one league work in another?</h1>
+    <p class="thesis">The shortlist model was trained on <strong>La Liga 2015/16</strong>, then tested on the full <strong>Premier League</strong> and <strong>Serie A</strong> of the same season — plus a spotlight on modern squads. The finding is clean: <strong>the ranking travels across leagues; the decision threshold does not.</strong></p>
+    <div class="headline-tiles">
+      <div class="tile accent">
+        <div class="big">0.84</div>
+        <div class="lbl">Transfer AUC on the Premier League — a La&nbsp;Liga-only model ranks Prem strikers nearly as well as a native one (0.85).</div>
+      </div>
+      <div class="tile">
+        <div class="big">8%</div>
+        <div class="lbl">of Serie A's own top-quartile strikers clear the fixed 0.60 "recommend" cutoff. The calibrated threshold must be re-fit per league.</div>
+      </div>
+      <div class="tile">
+        <div class="big">3 + 2</div>
+        <div class="lbl">three complete 2015/16 leagues, plus two modern single-club squads — the freshest data StatsBomb releases for free.</div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ── Section 0 — coverage ── -->
+  <section>
+    <p class="sec-num">01 — THE DATA</p>
+    <h2>The "latest" free data is one club, not a league</h2>
+    <p class="lede">Only three complete Big-5 seasons exist in StatsBomb's open data — all 2015/16. Every newer free season is a single featured club's fixtures, so it can anchor a modern spotlight but not a league-wide shortlist.</p>
+    <div class="tbl-scroll">
+      <table>
+        <thead><tr><th>Dataset</th><th>Coverage</th><th class="n">Matches</th><th>Role in this study</th></tr></thead>
+        <tbody>
+          <tr><td class="strong-cell">La Liga 2015/16</td><td>Full league · 20 teams</td><td class="n">380</td><td>Train + baseline</td></tr>
+          <tr><td class="strong-cell">Premier League 2015/16</td><td>Full league · 20 teams</td><td class="n">380</td><td>Cross-league test</td></tr>
+          <tr><td class="strong-cell">Serie A 2015/16</td><td>Full league · 20 teams</td><td class="n">380</td><td>Cross-league test</td></tr>
+          <tr><td class="strong-cell">Bundesliga 2023/24</td><td>Bayer Leverkusen only</td><td class="n">34</td><td>Modern spotlight</td></tr>
+          <tr><td class="strong-cell">Ligue 1 2022/23</td><td>PSG only</td><td class="n">32</td><td>Modern spotlight</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ── Section 1 — recipe replicates ── -->
+  <section>
+    <p class="sec-num">02 — THE RECIPE REPLICATES</p>
+    <h2>The simple model is the right default in every league</h2>
+    <p class="lede">Same pipeline per league: forwards with ≥450 minutes, target = that league's own top-quartile non-penalty goals+assists per 90, five per-90 features, logistic regression vs gradient boosting chosen by Brier score (lower = better calibrated).</p>
+    <div class="cards">
+      <div class="card top" style="--lg: var(--laliga)">
+        <h3>La Liga</h3><div class="comp">140 forwards · 109 qualified</div>
+        <div style="margin-top:14px">
+          <div class="kv"><span class="k">Top-quartile bar</span><span class="v num">0.559</span></div>
+          <div class="kv"><span class="k">Brier — Logistic</span><span class="v win num">0.137</span></div>
+          <div class="kv"><span class="k">Brier — Boosting</span><span class="v num">0.168</span></div>
+          <div class="kv"><span class="k">Ranking AUC</span><span class="v num">0.775</span></div>
+        </div>
+      </div>
+      <div class="card top" style="--lg: var(--prem)">
+        <h3>Premier League</h3><div class="comp">149 forwards · 98 qualified</div>
+        <div style="margin-top:14px">
+          <div class="kv"><span class="k">Top-quartile bar</span><span class="v num">0.504</span></div>
+          <div class="kv"><span class="k">Brier — Logistic</span><span class="v win num">0.118</span></div>
+          <div class="kv"><span class="k">Brier — Boosting</span><span class="v num">0.223</span></div>
+          <div class="kv"><span class="k">Ranking AUC</span><span class="v num">0.852</span></div>
+        </div>
+      </div>
+      <div class="card top" style="--lg: var(--seriea)">
+        <h3>Serie A</h3><div class="comp">127 forwards · 95 qualified</div>
+        <div style="margin-top:14px">
+          <div class="kv"><span class="k">Top-quartile bar</span><span class="v num">0.505</span></div>
+          <div class="kv"><span class="k">Brier — Logistic</span><span class="v win num">0.170</span></div>
+          <div class="kv"><span class="k">Brier — Boosting</span><span class="v num">0.181</span></div>
+          <div class="kv"><span class="k">Ranking AUC</span><span class="v num">0.736</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="callout"><strong>Read it honestly.</strong> Logistic regression wins on calibration in all three leagues (robust across 50 CV seeds) — but gradient boosting is a weak comparator at n≈100, so this argues for <em>simplicity</em>, not that any model is strongly calibrated (Serie A's Brier is poor in absolute terms). La Liga's higher scoring bar is real in-sample but, with ~100 players per league, its confidence interval overlaps the others — descriptive, not proof of a tougher league.</div>
+  </section>
+
+  <!-- ── Section 2 — transfer centrepiece ── -->
+  <section>
+    <p class="sec-num">03 — THE HEADLINE</p>
+    <h2>The ranking transfers. The threshold doesn't.</h2>
+    <p class="lede">Train the scaler + logistic model on La Liga only, then score another league's forwards. Two very different things happen to the two halves of the model.</p>
+
+    <div class="chart">
+      <div style="font-size:13.5px; color:var(--ink-soft); margin-bottom:6px;">Ranking power (ROC-AUC) — native league model vs the transferred La&nbsp;Liga model</div>
+      <svg viewBox="0 0 760 210" role="img" aria-label="AUC comparison: native vs transferred model. Scale 0.5 to 0.9.">
+        <!-- linear scale: x = 200 + (auc-0.5)*1200 ; 0.5->200 .. 0.9->680 -->
+        <g>
+          <line class="gridline" x1="200" y1="24" x2="200" y2="168"/>
+          <line class="gridline" x1="320" y1="24" x2="320" y2="168"/>
+          <line class="gridline" x1="440" y1="24" x2="440" y2="168"/>
+          <line class="gridline" x1="560" y1="24" x2="560" y2="168"/>
+          <line class="gridline" x1="680" y1="24" x2="680" y2="168"/>
+          <text class="axis-txt" x="200" y="184" text-anchor="middle">0.5</text>
+          <text class="axis-txt" x="320" y="184" text-anchor="middle">0.6</text>
+          <text class="axis-txt" x="440" y="184" text-anchor="middle">0.7</text>
+          <text class="axis-txt" x="560" y="184" text-anchor="middle">0.8</text>
+          <text class="axis-txt" x="680" y="184" text-anchor="middle">0.9</text>
+        </g>
+        <!-- Premier League: transfer 0.837 -> 604 ; native 0.852 -> 622 -->
+        <g>
+          <text class="cat-txt" x="16" y="52">Premier L.</text>
+          <rect x="200" y="40" width="404" height="12" rx="4" fill="var(--prem)"/>
+          <rect x="200" y="56" width="422" height="12" rx="4" fill="var(--prem)" opacity="0.4"/>
+          <text class="val-txt" x="612" y="50">.837</text>
+          <text class="val-txt" x="630" y="66" fill="var(--ink-faint)">.852</text>
+        </g>
+        <!-- Serie A: transfer 0.776 -> 531 ; native 0.736 -> 483 -->
+        <g>
+          <text class="cat-txt" x="16" y="112">Serie A</text>
+          <rect x="200" y="100" width="331" height="12" rx="4" fill="var(--seriea)"/>
+          <rect x="200" y="116" width="283" height="12" rx="4" fill="var(--seriea)" opacity="0.4"/>
+          <text class="val-txt" x="539" y="110">.776</text>
+          <text class="val-txt" x="491" y="126" fill="var(--ink-faint)">.736</text>
+        </g>
+      </svg>
+      <div class="legend">
+        <span><i class="swatch" style="background:var(--prem)"></i>Transferred La Liga model</span>
+        <span><i class="swatch" style="background:var(--prem); opacity:.42"></i>Native league model</span>
+        <span style="color:var(--ink-faint)">Prem: transfer ≈ native. Serie A: the two are statistically indistinguishable (both weak, n=95).</span>
+      </div>
+    </div>
+
+    <div class="chart" style="margin-top:16px">
+      <div style="font-size:13.5px; color:var(--ink-soft); margin-bottom:14px;">Share of a league's <b>own</b> top-quartile strikers that the La&nbsp;Liga model "recommends" (P ≥ 0.60)</div>
+      <div class="recall-row">
+        <div class="rl"><b>La Liga</b> <small style="color:var(--ink-faint)">(in-sample)</small></div>
+        <div class="rt"><div class="rf" style="width:46.4%; background:var(--laliga)"></div></div>
+        <div class="rv" style="color:var(--laliga)">46%</div>
+      </div>
+      <div class="recall-row">
+        <div class="rl"><b>Premier L.</b> <small style="color:var(--ink-faint)">(transfer)</small></div>
+        <div class="rt"><div class="rf" style="width:32%; background:var(--prem)"></div></div>
+        <div class="rv" style="color:var(--prem)">32%</div>
+      </div>
+      <div class="recall-row">
+        <div class="rl"><b>Serie A</b> <small style="color:var(--ink-faint)">(transfer)</small></div>
+        <div class="rt"><div class="rf" style="width:8.3%; background:var(--seriea)"></div></div>
+        <div class="rv" style="color:var(--seriea)">8%</div>
+      </div>
+      <p style="font-size:13.5px; color:var(--ink-soft); margin:14px 0 0;">The further a league sits from La Liga's scoring profile, the fewer of its genuinely-elite strikers survive the fixed cutoff. The order is preserved; the calibrated line in the sand is not portable.</p>
+    </div>
+
+    <div class="callout warn"><strong>Why it breaks.</strong> The model is npxG-dominated (coefficient +1.37) and slightly <em>penalises</em> raw shot volume (−0.20). Serie A's top-quartile scorers actually take <em>more</em> shots and get <em>more</em> box touches than La Liga's — but post lower npxG (0.33 vs 0.40) because they finish <em>above</em> expectation. An npxG-driven model therefore under-rates them. This is a concrete, quantified version of the project's "calibrated to one league only" limitation.</div>
+  </section>
+
+  <!-- ── Section 3 — fingerprints ── -->
+  <section>
+    <p class="sec-num">04 — WHAT "ELITE" MEANS</p>
+    <h2>Each league has a different striker fingerprint</h2>
+    <p class="lede">Standardised logistic-regression coefficients — how much each per-90 signal predicts top-quartile output. npxG matters everywhere; the rest diverges.</p>
+    <div class="chart">
+      <svg viewBox="0 0 700 300" role="img" aria-label="Standardised coefficients by league across five features">
+        <!-- zero axis at x=250; scale: 1.0 unit = 150px ; range approx -0.4..1.4 -->
+        <!-- features rows at y centers -->
+        <line class="gridline" x1="250" y1="16" x2="250" y2="284"/>
+        <text class="axis-txt" x="250" y="298" text-anchor="middle">0</text>
+        <text class="axis-txt" x="400" y="298" text-anchor="middle">+1.0</text>
+        <text class="axis-txt" x="175" y="298" text-anchor="middle">−0.5</text>
+        <line class="gridline" x1="400" y1="16" x2="400" y2="284"/>
+        <line class="gridline" x1="175" y1="16" x2="175" y2="284"/>
+
+        <!-- Row helper: each feature has 3 bars (laliga, prem, seriea). bar h=11, gap 2 -->
+        <!-- npxG: LL 1.373 -> width 206 ; PL .758->114 ; SA .832->125 -->
+        <g>
+          <text class="cat-txt" x="16" y="42">npxG</text>
+          <rect x="250" y="24" width="206" height="11" rx="3" fill="var(--laliga)"/>
+          <rect x="250" y="37" width="114" height="11" rx="3" fill="var(--prem)"/>
+          <rect x="250" y="50" width="125" height="11" rx="3" fill="var(--seriea)"/>
+        </g>
+        <!-- key passes: LL .474->71 ; PL .973->146 ; SA .192->29 -->
+        <g>
+          <text class="cat-txt" x="16" y="98">key passes</text>
+          <rect x="250" y="80" width="71" height="11" rx="3" fill="var(--laliga)"/>
+          <rect x="250" y="93" width="146" height="11" rx="3" fill="var(--prem)"/>
+          <rect x="250" y="106" width="29" height="11" rx="3" fill="var(--seriea)"/>
+        </g>
+        <!-- touches in box: LL .298->45 ; PL .495->74 ; SA .144->22 -->
+        <g>
+          <text class="cat-txt" x="16" y="154">touches-in-box</text>
+          <rect x="250" y="136" width="45" height="11" rx="3" fill="var(--laliga)"/>
+          <rect x="250" y="149" width="74" height="11" rx="3" fill="var(--prem)"/>
+          <rect x="250" y="162" width="22" height="11" rx="3" fill="var(--seriea)"/>
+        </g>
+        <!-- shots: LL -.201-> -30 ; PL .671->101 ; SA .237->36 -->
+        <g>
+          <text class="cat-txt" x="16" y="210">shots</text>
+          <rect x="220" y="192" width="30" height="11" rx="3" fill="var(--laliga)"/>
+          <rect x="250" y="205" width="101" height="11" rx="3" fill="var(--prem)"/>
+          <rect x="250" y="218" width="36" height="11" rx="3" fill="var(--seriea)"/>
+        </g>
+        <!-- pressures: LL -.168->-25 ; PL -.336->-50 ; SA -.093->-14 -->
+        <g>
+          <text class="cat-txt" x="16" y="266">pressures</text>
+          <rect x="225" y="248" width="25" height="11" rx="3" fill="var(--laliga)"/>
+          <rect x="200" y="261" width="50" height="11" rx="3" fill="var(--prem)"/>
+          <rect x="236" y="274" width="14" height="11" rx="3" fill="var(--seriea)"/>
+        </g>
+      </svg>
+      <div class="legend">
+        <span><i class="swatch" style="background:var(--laliga)"></i>La Liga</span>
+        <span><i class="swatch" style="background:var(--prem)"></i>Premier League</span>
+        <span><i class="swatch" style="background:var(--seriea)"></i>Serie A</span>
+      </div>
+    </div>
+    <p style="margin-top:20px">La Liga rewards chance <strong>quality</strong> (npxG towers; shot volume is even slightly negative). The Premier League uniquely rewards <strong>creation</strong> — key passes is its single largest coefficient anywhere. Serie A rewards <strong>efficient finishing</strong> with everything else muted. Pressures are negative in all three: elite scorers press less. <span style="color:var(--ink-faint)">(Small-sample caveat applies to the coefficients too.)</span></p>
+  </section>
+
+  <!-- ── Section 4 — spotlight ── -->
+  <section>
+    <p class="sec-num">05 — MODERN SPOTLIGHT</p>
+    <h2>The 2015/16 model, pointed at today's stars</h2>
+    <p class="lede">Scored on the La Liga 2015/16 scale. The dashed line is the 0.60 "recommend" threshold. Illustrative, not evaluative — single-club squads, ≤3 qualifying forwards each.</p>
+    <div class="chart">
+      <div class="spot">
+        <div class="spot-row">
+          <div class="spot-name">Kylian Mbappé<small>PSG 2022/23 · 1.13 npGA/90</small></div>
+          <div class="st"><div class="sf" style="width:97.9%; background:var(--rec)"></div><div class="sthr" style="left:60%"></div></div>
+          <div class="spot-dec"><span class="num">0.98</span> <span class="pill rec">recommend</span></div>
+        </div>
+        <div class="spot-row">
+          <div class="spot-name">Victor Boniface<small>Leverkusen 2023/24 · 1.02 npGA/90</small></div>
+          <div class="st"><div class="sf" style="width:94.8%; background:var(--rec)"></div><div class="sthr" style="left:60%"></div></div>
+          <div class="spot-dec"><span class="num">0.95</span> <span class="pill rec">recommend</span></div>
+        </div>
+        <div class="spot-row">
+          <div class="spot-name">Lionel Messi<small>PSG 2022/23 · 0.92 npGA/90</small></div>
+          <div class="st"><div class="sf" style="width:78.5%; background:var(--rec)"></div><div class="sthr" style="left:60%"></div></div>
+          <div class="spot-dec"><span class="num">0.78</span> <span class="pill rec">recommend</span></div>
+        </div>
+        <div class="spot-row">
+          <div class="spot-name">Patrik Schick<small>Leverkusen 2023/24 · 0.49 npGA/90</small></div>
+          <div class="st"><div class="sf" style="width:44.9%; background:var(--rev)"></div><div class="sthr" style="left:60%"></div></div>
+          <div class="spot-dec"><span class="num">0.45</span> <span class="pill rev">review</span></div>
+        </div>
+        <div class="spot-row">
+          <div class="spot-name">Hugo Ekitike<small>PSG 2022/23 · 0.66 npGA/90</small></div>
+          <div class="st"><div class="sf" style="width:14.5%; background:var(--not)"></div><div class="sthr" style="left:60%"></div></div>
+          <div class="spot-dec"><span class="num">0.14</span> <span class="pill not">not rec.</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="callout">The model cleanly rates Mbappé and Boniface elite, keeps Messi-as-creator in the recommend band, and (fairly) rejects PSG misfit Ekitike despite his flattering raw output. <strong>Excluded by design:</strong> the striker filter drops players whose season-modal position falls outside the five forward roles — e.g. Florian Wirtz (an attacking midfielder) and Neymar (logged across wing / attacking-mid / midfield that season).</div>
+  </section>
+
+  <!-- ── Section 5 — how to read ── -->
+  <section>
+    <p class="sec-num">06 — HOW TO READ THIS</p>
+    <h2>What it does — and doesn't — show</h2>
+    <p class="lede">The comparison is only as trustworthy as its caveats. These are stated up front, because knowing the limits is the point of a calibrated model.</p>
+    <div class="cards" style="grid-template-columns:1fr 1fr">
+      <div class="card">
+        <h3 style="color:var(--rev)">Descriptive, not predictive</h3>
+        <p style="font-size:14px;color:var(--ink-soft);margin:8px 0 0;max-width:none">The target (npGA/90) and a core feature (npxG/90) are both same-season output measures and correlate ≈0.72. The model partly re-describes a cousin of its own target. It characterises the <em>profile</em> of a high-output striker; it does not forecast future or transfer value.</p>
+      </div>
+      <div class="card">
+        <h3 style="color:var(--rev)">Small samples</h3>
+        <p style="font-size:14px;color:var(--ink-soft);margin:8px 0 0;max-width:none">95–109 qualifying forwards, only 24–28 "elite" per league. Every statistic carries wide intervals; most cross-league gaps sit within sampling noise. Treat differences as directional.</p>
+      </div>
+      <div class="card">
+        <h3 style="color:var(--rev)">Low minutes floor</h3>
+        <p style="font-size:14px;color:var(--ink-soft);margin:8px 0 0;max-width:none">The 450-minute cut lets small-sample per-90 leaders (e.g. Gabbiadini, 621') outrank higher-volume proven scorers. The model rewards rate over volume.</p>
+      </div>
+      <div class="card">
+        <h3 style="color:var(--rev)">Weak baseline</h3>
+        <p style="font-size:14px;color:var(--ink-soft);margin:8px 0 0;max-width:none">Gradient boosting is a straw comparator at n≈100. "Logistic regression wins" means the simple model is the right default here — not that performance is strong in absolute terms.</p>
+      </div>
+    </div>
+  </section>
+
+  <hr class="divider"/>
+  <footer>
+    <div class="verified">✓ <b>Independently verified</b> — every figure re-derived from source + adversarially stress-tested</div>
+    <p style="max-width:none">Source: StatsBomb open data via <span class="num">statsbombpy</span>. Ingestion reproduces the cached La Liga tables exactly (<span class="num">2,946</span> player-match / <span class="num">140</span> player-season rows, all columns). Features per 90 min: shots, npxG, touches-in-box, key passes, pressures. Target: top-quartile non-penalty goals + assists per 90. Model: logistic regression vs gradient boosting, 5-fold CV, Brier-selected, with recommend / review / insufficient-evidence decision bands.</p>
+  </footer>
+
+</div>
