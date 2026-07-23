@@ -1,5 +1,7 @@
 # Calibrated Striker Shortlist
 
+**📊 [Live cross-league report →](https://sharia143.github.io/striker-preselect/outputs/comparison_report.html)**
+
 Football clubs increasingly make expensive recruitment decisions on model outputs, and the industry's own named barrier is explainability/trust. This project builds a deliberately simple striker-shortlist model whose headline feature is **calibrated confidence**: it outputs `recommend` / `review` / `insufficient-evidence` instead of false certainty.
 
 ## Data
