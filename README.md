@@ -22,10 +22,31 @@ Football clubs increasingly make expensive recruitment decisions on model output
 | pressures_p90 | Defensive pressures applied |
 | npga_p90 | Non-penalty goals + assists (target basis) |
 
+### How each raw stat is derived from events
+
+Event-level aggregation (`ingest.py`), computed per player per match, then rolled up to per-90 (above):
+
+| Field | Definition (from StatsBomb events) |
+|-------|------------------------------------|
+| shots | count of `type == Shot` |
+| xg | sum of `shot_statsbomb_xg` |
+| goals | shots with `shot_outcome == Goal` |
+| np_goals | goals excluding `shot_type == Penalty` |
+| npxg | sum of `shot_statsbomb_xg` excluding penalties |
+| touches_in_box | count of events with pitch location **`x >= 102` and `18 <= y <= 62`** (opposition box on the 120×80 pitch) |
+| key_passes | count of `pass_shot_assist == True` — passes leading to a shot; goal assists are counted separately, not double-counted |
+| assists | count of `pass_goal_assist == True` |
+| pressures | count of `type == Pressure` |
+| np_goals_assists | np_goals + assists |
+| minutes | derived from the Starting XI event + Substitution events + match end (must read the *full* event stream — Starting XI / Half End rows carry no `player_id`) |
+| primary_position | season-level **mode** of the player's `position` across all events (one label per player) |
+
+This aggregation reproduces the cached La Liga tables **exactly** — all 2,946 player-match and 140 player-season rows, every column — verified by `validate_ingest.py`.
+
 ## Method
 
 ### SQL step
-Player-match records are loaded into SQLite (`data/players.db`). The player-season table is produced via the aggregation query in `sql/aggregate.sql`.
+Player-match records are loaded into SQLite (`data/players.db`), and the player-season table is produced via the aggregation query in `sql/aggregate.sql`. `players.db` is gitignored; `build_db.py` rebuilds it from the committed `data/player_match_stats.csv` so the repo is clone-and-run.
 
 ### Model
 - **Labelled set**: 109 forwards with >= 450 minutes (approximately 5 full matches).
@@ -184,10 +205,11 @@ that season).
 
 ```bash
 # Requires Python 3.10+ with venv already set up
-.\venv\Scripts\python.exe model.py
+.\venv\Scripts\python.exe build_db.py   # build data/players.db from committed CSVs (first run / fresh clone)
+.\venv\Scripts\python.exe model.py      # single-league model + shortlist
 ```
 
-Data is cached in `data/` after first pull — the model script reads from SQLite, so StatsBomb re-download is not needed for re-runs.
+`build_db.py` rebuilds the SQLite database from the version-controlled player-match CSV (no StatsBomb download needed). The raw events pickle and `players.db` are gitignored; everything the model needs is regenerated from the committed CSVs.
 
 ## Limitations
 
@@ -232,6 +254,7 @@ Data is cached in `data/` after first pull — the model script reads from SQLit
 ├── sql/
 │   └── aggregate.sql                 # Season-level aggregation query
 ├── outputs/                          # shortlists, comparison CSVs + charts
+├── build_db.py                       # Rebuild data/players.db from committed CSVs (clone-and-run)
 ├── ingest.py                         # StatsBomb events → player-match → season (any comp/season)
 ├── validate_ingest.py                # Proves ingest.py reproduces the cached La Liga tables
 ├── model.py                          # Single-league model pipeline (La Liga)
